@@ -1,3 +1,4 @@
+# Uses python3
 __author__ = "Kartik Kannapur"
 
 # #Import Libraries
@@ -20,13 +21,20 @@ max_one = arr[0]
 max_two = arr[0]
 
 # #Linear Search 
-for element in arr:
-	if element >= max_one:
-		max_two = max_one
-		max_one = element
+if len(arr) == 2:
+	max_one = arr[0]
+	max_two = arr[1]
 
-	if (element > max_two) and (element < max_one):
-		max_two = element
+if len(arr) > 2:	
+	for element in arr:
+		if element >= max_one:
+			max_two = max_one
+			max_one = element
+
+		if (element > max_two) and (element < max_one):
+			max_two = element
 
 
-print(max_one, max_two, "Product:", (max_one*max_two))
+
+# print(max_one, max_two, "Product:", (max_one*max_two))
+print((max_one*max_two))

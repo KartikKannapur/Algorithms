@@ -1,8 +1,9 @@
+# Uses python3
 __author__ = "Kartik Kannapur"
 
 import sys
 
-print("--- START ---")
+# print("--- START ---")
 input = sys.stdin.readline()
 tokens = input.split()
 a = int(tokens[0])

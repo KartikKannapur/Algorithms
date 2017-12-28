@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_AplusB.py" afterPath="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_AplusB.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_MaximumPairwiseProduct.py" afterPath="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_MaximumPairwiseProduct.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +14,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="01_TwoSum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01_TwoSum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="461_HammingDistance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -43,6 +51,7 @@
       <list>
         <option value="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_AplusB.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py" />
       </list>
     </option>
   </component>
@@ -192,6 +201,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -9,6 +9,7 @@ class Solution:
         :type y: int
         :rtype: int
         """
+        # #Method 1
         num_1 = bin(x)[2:].zfill(31)
         num_2 = bin(y)[2:].zfill(31)
 
@@ -17,3 +18,6 @@ class Solution:
             if num_1[i] != num_2[i]:
                 var_counter += 1
         return (var_counter)
+
+        # #Method 2:
+        return bin(x^y).count('1')

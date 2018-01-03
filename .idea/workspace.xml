@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/191_Numberof1Bits.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/217_ContainsDuplicate.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/342_PowerofFour.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/371_SumofTwoIntegers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/476_NumberComplement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/693_BinaryNumberwithAlternatingBits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/461_HammingDistance.py" />
     </list>
@@ -75,6 +70,7 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/371_SumofTwoIntegers.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/476_NumberComplement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/217_ContainsDuplicate.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py" />
       </list>
     </option>
   </component>
@@ -535,6 +531,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>

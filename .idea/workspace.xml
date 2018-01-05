@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/657_JudgeRouteCircle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/383_RansomNote.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/443_StringCompression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/67_AddBinary.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +30,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_AplusB.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/27_RemoveElement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/15_3Sum.py" />
@@ -77,6 +78,9 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/520_DetectCapital.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/657_JudgeRouteCircle.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/67_AddBinary.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/383_RansomNote.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/443_StringCompression.py" />
       </list>
     </option>
   </component>
@@ -198,29 +202,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/02_Coursera_Algorithmic_Toolbox/Week_01_AplusB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/720_LongestWordinDictionary.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -601,6 +582,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="801">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/67_AddBinary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/443_StringCompression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="31" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/383_RansomNote.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="49" column="43" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="49" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/152_MaximumProductSubarray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/53_MaximumSubarray.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/Dynamic_Programming/Fibonacci_Modified.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/215_KthLargestElementinanArray.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/347_TopKFrequentElements.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,11 +58,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="238_ProductofArrayExceptSelf.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="238_ProductofArrayExceptSelf.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="992">
               <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="215_KthLargestElementinanArray.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/215_KthLargestElementinanArray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="347_TopKFrequentElements.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/347_TopKFrequentElements.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -85,8 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/693_BinaryNumberwithAlternatingBits.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/371_SumofTwoIntegers.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/476_NumberComplement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/217_ContainsDuplicate.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py" />
@@ -136,6 +152,8 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/53_MaximumSubarray.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/152_MaximumProductSubarray.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/215_KthLargestElementinanArray.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/347_TopKFrequentElements.py" />
       </list>
     </option>
   </component>
@@ -299,22 +317,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/344_ReverseString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/557_ReverseWordsinaStringIII.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -703,6 +705,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="992">
           <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/215_KthLargestElementinanArray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="48" lean-forward="false" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/347_TopKFrequentElements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="77" lean-forward="false" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
           <folding />
         </state>
       </provider>

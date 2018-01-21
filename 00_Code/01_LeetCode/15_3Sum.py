@@ -1,6 +1,19 @@
-# #Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0?
-# #Find all unique triplets in the array which gives the sum of zero.
-# #Your runtime beats 72.89 % of python submissions.
+"""
+Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
+
+Note: The solution set must not contain duplicate triplets.
+
+For example, given array S = [-1, 0, 1, 2, -1, -4],
+
+A solution set is:
+[
+  [-1, 0, 1],
+  [-1, -1, 2]
+]
+
+Your runtime beats 48.41 % of python submissions
+"""
+
 
 class Solution(object):
     def threeSum(self, nums):
@@ -8,44 +21,34 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        # #Method 1
-        from itertools import combinations
+        # #Special Case
+        if len(nums) < 3: return []
 
-        arr = []
-        for ele in combinations(nums, 3):
-            if sum(ele) == 0:
-                arr.append(ele)
+        if len(nums) == 3:
+            if sum(nums) == 0:
+                return [sorted(nums)]
 
-        return(list((set([tuple(sorted(i)) for i in arr]))))
-
-    def threeSum(self, nums):
-
-        arr_result = []
-        # #Sort the array so that we can selectively find the
-        # #three numbers that add upto zero
+        # #General Case
         nums.sort()
+        res = []
 
         for i in range(len(nums) - 2):
-            # #i>0 to handle a particular test case
-            if i > 0 and nums[i] == nums[i - 1]:
+            low = i + 1
+            high = len(nums) - 1
+
+            # #To handle Time Limit Exceeded Error
+            if i != 0 and nums[i] == nums[i - 1]:
                 continue
 
-            l, r = i + 1, len(nums) - 1
-            while l < r:
+            while low < high:
+                temp_sum = nums[i] + nums[low] + nums[high]
+                if temp_sum == 0:
+                    res.append((nums[i], nums[low], nums[high]))
 
-                s = nums[i] + nums[l] + nums[r]
-                if s < 0:
-                    l += 1
-                elif s > 0:
-                    r -= 1
+                if temp_sum > 0:
+                    high -= 1
                 else:
-                    arr_result.append((nums[i], nums[l], nums[r]))
-                    while l < r and nums[l] == nums[l + 1]:
-                        l += 1
-                    while l < r and nums[r] == nums[r - 1]:
-                        r -= 1
+                    low += 1
 
-                    l += 1;
-                    r -= 1
-
-        return arr_result
+        # #Return unique elements
+        return list(set(tuple(res)))

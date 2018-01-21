@@ -3,7 +3,7 @@ Given a string containing just the characters '(', ')', '{', '}', '[' and ']', d
 
 The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 
-Your runtime beats 39.35 % of python submissions
+Your runtime beats 70.47 % of python submissions.~
 """
 
 
@@ -13,52 +13,39 @@ class Solution(object):
         :type s: str
         :rtype: bool
         """
-        #Method 1: Using Stack
+        """
+        Method 1: Stack Code
+        Your runtime beats 39.35 % of python submissions.
+        """
+        #         stack = []
+        #         dict = {"]":"[", "}":"{", ")":"("}
+
+        #         for char in s:
+        #             if char in dict.values():
+        #                 stack.append(char)
+        #             elif char in dict.keys():
+        #                 if stack == [] or dict[char] != stack.pop():
+        #                     return False
+        #             else:
+        #                 return False
+        #         return stack == []
+
+        """
+        Method 2: Optimized Stack Code
+
+        Create a dict with the key-value pairs being
+        either pairs of a parentheses set.
+
+        Check if the last element in the stack is the same as
+
+        Your runtime beats 70.47 % of python submissions.
+        """
+        d = {"]": "[", "}": "{", ")": "("}
         stack = []
 
-        for p in s:
-            if p == "{":
-                stack.append(p)
-            if p == "(":
-                stack.append(p)
-            if p == "[":
-                stack.append(p)
-
-            try:
-                if p == "}":
-                    if stack[-1] == "{":
-                        stack.pop()
-                    else:
-                        return False
-                if p == ")":
-                    if stack[-1] == "(":
-                        stack.pop()
-                    else:
-                        return False
-                if p == "]":
-                    if stack[-1] == "[":
-                        stack.pop()
-                    else:
-                        return False
-            except:
-                return False
-        if len(stack) > 0: return False
-        else: return True
-
-        # #Method 2: Optimized Stack Code
-        stack = []
-        dict = {"]": "[", "}": "{", ")": "("}
         for char in s:
-            if char in dict.values():
-                stack.append(char)
-            elif char in dict.keys():
-                if stack == [] or dict[char] != stack.pop():
-                    return False
+            if stack and (char in d and stack[-1] == d[char]):
+                stack.pop()
             else:
-                return False
+                stack.append(char)
         return stack == []
-
-        # #Method 3: String Manipulation - O(N^2) - Worst Time Complexity
-        while "()" in s or "{}" in s or "[]" in s:
-            s = s.replace("()","").replace("{}","").replace("[]","")
-        return len(s) == 0

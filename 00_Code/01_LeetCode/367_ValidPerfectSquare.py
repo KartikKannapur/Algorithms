@@ -22,15 +22,21 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        # #Method 1 - Your runtime beats 6.94 % of python submissions.
+        """
+        Method 1 - Brute Force
+        Your runtime beats 6.94 % of python submissions.
+        """
         i = 1
         while i**2 <= num:
             if i**2 == num: return True
             i += 1
         return False
 
-        # #Method 2 - Newton's Method
-        # #Your runtime beats 72.24 % of python submissions.
+        """
+        Method 2 - Newton's Method
+        Using Binary Search
+        Your runtime beats 72.24 % of python submissions.
+        """
         if num == 1: return True
 
         low = 1

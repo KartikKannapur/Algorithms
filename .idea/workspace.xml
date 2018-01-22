@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/155_MinStack.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/155_MinStack.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/58_LengthofLastWord.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/58_LengthofLastWord.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,36 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="182_DuplicateEmails.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/182_DuplicateEmails.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="11" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="181_EmployeesEarningMoreThanTheirManagers.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/181_EmployeesEarningMoreThanTheirManagers.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="676">
-              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="58_LengthofLastWord.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/58_LengthofLastWord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="627_SwapSalary.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/627_SwapSalary.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +79,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="155_MinStack.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="155_MinStack.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/155_MinStack.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="799">
               <caret line="69" column="11" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="69" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="541_ReverseStringII.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="43_MultiplyStrings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="165_CompareVersionNumbers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -132,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/435_NonoverlappingIntervals.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/682_BaseballGame.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/232_ImplementQueueusingStacks.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/341_FlattenNestedListIterator.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/385_MiniParser.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/760_FindAnagramMappings.py" />
@@ -183,6 +182,9 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/409_LongestPalindrome.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/374_GuessNumberHigherorLower.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/155_MinStack.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" />
       </list>
     </option>
   </component>
@@ -342,30 +344,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/232_ImplementQueueusingStacks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/341_FlattenNestedListIterator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="73" column="23" lean-forward="false" selection-start-line="73" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/760_FindAnagramMappings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="17" column="43" lean-forward="true" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/500_KeyboardRow.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="566">
@@ -746,6 +724,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="69" column="11" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="69" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding />
         </state>
       </provider>

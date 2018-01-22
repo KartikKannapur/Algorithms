@@ -18,7 +18,11 @@ class Solution(object):
         :type k: int
         :rtype: str
         """
-        # Method 1
+        """
+        Method 1
+        Your runtime beats 82.02 % of python submissions.
+        Iterative
+        """
         new_string = ""
 
         i = 0
@@ -28,5 +32,8 @@ class Solution(object):
 
         return new_string
 
-        # #Method 2
+        """
+        Method 2:
+        Recursive
+        """
         return s[:k][::-1] + s[k:2 * k] + self.reverseStr(s[2 * k:], k) if s else ""

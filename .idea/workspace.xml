@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/24_RevisingAggregationsTheSumFunction.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/25_RevisingAggregationsAverages.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/26_AveragePopulation.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/27_JapanPopulation.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/28_PopulationDensityDifference.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,56 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="627_SwapSalary.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/627_SwapSalary.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="367_ValidPerfectSquare.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/367_ValidPerfectSquare.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="28" column="8" lean-forward="false" selection-start-line="28" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="150_EvaluateReversePolishNotation.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3_LongestSubstringWithoutRepeatingCharacters.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/3_LongestSubstringWithoutRepeatingCharacters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="409_LongestPalindrome.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/409_LongestPalindrome.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="374_GuessNumberHigherorLower.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/374_GuessNumberHigherorLower.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +61,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="165_CompareVersionNumbers.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="165_CompareVersionNumbers.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
               <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="24_RevisingAggregationsTheSumFunction.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/24_RevisingAggregationsTheSumFunction.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="25_RevisingAggregationsAverages.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/25_RevisingAggregationsAverages.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="26_AveragePopulation.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/26_AveragePopulation.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="27_JapanPopulation.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/27_JapanPopulation.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="28_PopulationDensityDifference.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/28_PopulationDensityDifference.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -134,11 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/341_FlattenNestedListIterator.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/385_MiniParser.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/760_FindAnagramMappings.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/500_KeyboardRow.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/575_DistributeCandies.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/463_IslandPerimeter.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/349_IntersectionofTwoArrays.py" />
@@ -185,6 +182,11 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/541_ReverseStringII.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/165_CompareVersionNumbers.py" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/24_RevisingAggregationsTheSumFunction.sql" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/25_RevisingAggregationsAverages.sql" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/26_AveragePopulation.sql" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/27_JapanPopulation.sql" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/28_PopulationDensityDifference.sql" />
       </list>
     </option>
   </component>
@@ -194,7 +196,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="315" />
     <option name="y" value="-25" />
     <option name="width" value="1400" />
@@ -240,6 +242,13 @@
               <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="00_Code" type="462c0819:PsiDirectoryNode" />
               <item name="02_HackerRank" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithms" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="00_Code" type="462c0819:PsiDirectoryNode" />
+              <item name="02_HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,7 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -344,46 +353,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/500_KeyboardRow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/575_DistributeCandies.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/463_IslandPerimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/35_SearchInsertPosition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="30" column="25" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/350_IntersectionofTwoArraysII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/349_IntersectionofTwoArrays.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -748,6 +717,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/24_RevisingAggregationsTheSumFunction.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/25_RevisingAggregationsAverages.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="30" lean-forward="false" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/26_AveragePopulation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="40" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/27_JapanPopulation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/28_PopulationDensityDifference.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="51" lean-forward="false" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>

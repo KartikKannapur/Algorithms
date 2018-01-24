@@ -1,8 +1,12 @@
-# #Remove all elements from a linked list of integers that have value val.
-# #Example
-# #Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
-# #Return: 1 --> 2 --> 3 --> 4 --> 5
-# #Your runtime beats 70.63 % of python submissions.
+"""
+Remove all elements from a linked list of integers that have value val.
+
+Example
+Given: 1 --> 2 --> 6 --> 3 --> 4 --> 5 --> 6, val = 6
+Return: 1 --> 2 --> 3 --> 4 --> 5
+
+Your runtime beats 70.63 % of python submissions.
+"""
 
 
 # Definition for singly-linked list.
@@ -18,11 +22,20 @@ class Solution(object):
         :type val: int
         :rtype: ListNode
         """
-        starter = ListNode(-1)
+        """
+        Method 1:
+        Your runtime beats 70.63 % of python submissions.
+
         starter.next = head
         var_node = starter
 
-        while var_node.next != None:
+        while var_node
+        """
+        starter = ListNode(None)
+        starter.next = head
+        var_node = starter
+
+        while var_node.next:
             if var_node.next.val == val:
                 var_node.next = var_node.next.next
             else:

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/30_TopEarners.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/31_WeatherObservationStation2.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/32_WeatherObservationStation13.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/33_WeatherObservationStation14.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/34_WeatherObservationStation15.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/35_WeatherObservationStation16.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/36_WeatherObservationStation17.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/566_ReshapetheMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/37_WeatherObservationStation18.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,36 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="627_SwapSalary.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/627_SwapSalary.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="17" column="47" lean-forward="false" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="595_BigCountries.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="720_LongestWordinDictionary.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/720_LongestWordinDictionary.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="30_TopEarners.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/30_TopEarners.sql">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +79,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="36_WeatherObservationStation17.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="36_WeatherObservationStation17.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/36_WeatherObservationStation17.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="130">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="37_WeatherObservationStation18.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/37_WeatherObservationStation18.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="566_ReshapetheMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/566_ReshapetheMatrix.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="579">
+              <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="654_MaximumBinaryTree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -138,9 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/20_EmployeeSalaries.sql" />
-        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/21_TypeofTriangle.sql" />
-        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/22_ThePADS.sql" />
         <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/23_RevisingAggregationsTheCountFunction.sql" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/204_CountPrimes.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/3_LongestSubstringWithoutRepeatingCharacters.py" />
@@ -189,6 +182,9 @@
         <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/34_WeatherObservationStation15.sql" />
         <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/35_WeatherObservationStation16.sql" />
         <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/36_WeatherObservationStation17.sql" />
+        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/37_WeatherObservationStation18.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/566_ReshapetheMatrix.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" />
       </list>
     </option>
   </component>
@@ -355,30 +351,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/204_CountPrimes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/167_TwoSumIIInputarrayissorted.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/170_TwoSumIIIDatastructuredesign.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="39" column="20" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/16_3SumClosest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -757,8 +729,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/36_WeatherObservationStation17.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="130">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/37_WeatherObservationStation18.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/566_ReshapetheMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="23" column="57" lean-forward="false" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="19" lean-forward="false" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
           <folding />
         </state>
       </provider>

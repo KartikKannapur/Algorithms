@@ -1,4 +1,9 @@
-# #Given a singly linked list, determine if it is a palindrome.
+"""
+Given a singly linked list, determine if it is a palindrome.
+
+Follow up:
+Could you do it in O(n) time and O(1) space?
+"""
 
 # Definition for singly-linked list.
 # class ListNode(object):
@@ -11,6 +16,25 @@ class Solution(object):
         """
         :type head: ListNode
         :rtype: bool
+        """
+        """
+        Method 1:
+        Using Stacks - O(n) compute O(n) size
+
+        Add each element to the stack.
+        Then compare head.val == stack.pop()
+        IF the elements are unequal, then return False
+        """
+
+        """
+        Method 2:
+        Reverse hald the Linked List
+
+        1. Finding the middle node
+        2. Reverse the linked list
+        3. Compare head and middle pointer
+
+        Your runtime beats 56.72 % of python submissions
         """
 
         main_ptr = head

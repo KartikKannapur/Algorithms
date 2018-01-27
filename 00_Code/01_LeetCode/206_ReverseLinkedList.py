@@ -1,7 +1,6 @@
-# #Reverse a singly linked list.
-# #Your runtime beats 49.59 % of python submissions.
-
-
+"""
+Reverse a singly linked list.
+"""
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -14,7 +13,10 @@ class Solution(object):
         :type head: ListNode
         :rtype: ListNode
         """
-
+        """
+        Standard Method
+        Your runtime beats 72.22 % of python submissions
+        """
         prev_ptr = None
         current_ptr = head
 
@@ -24,6 +26,8 @@ class Solution(object):
             prev_ptr = current_ptr
             current_ptr = next_ptr
 
-        self.head = prev_ptr
+        head = prev_ptr
 
         return prev_ptr
+
+

@@ -6,3 +6,7 @@ https://www.geeksforgeeks.org/merge-two-sorted-linked-lists/
 https://leetcode.com/articles/merged-two-sorted-lists/
 https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
 https://www.geeksforgeeks.org/reverse-a-linked-list/
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/
+https://discuss.leetcode.com/topic/80056/python-o-n-solution-with-visual-explanation
+https://www.geeksforgeeks.org/length-largest-subarray-contiguous-elements-set-1/
+https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/

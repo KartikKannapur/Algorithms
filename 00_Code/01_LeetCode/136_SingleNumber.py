@@ -1,6 +1,10 @@
-# #Given an array of integers, every element appears twice except for one. Find that single one.
-# #Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory
-# #Your runtime beats 91.85 % of python submissions
+"""
+Given an array of integers, every element appears twice except for one. Find that single one.
+
+Note:
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+
+"""
 
 class Solution(object):
     def singleNumber(self, nums):
@@ -8,26 +12,20 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        #Method 1:
-        d = {}
+        """
+        Method 1
+        Create a hash table - dictionary and keep a track of the number
+        of occurrances of each element. The element that occurs only once
+        will be the 'single one'
 
-        for i in nums:
-            if i in d:
-                d[i] += 1
-            else:
-                d[i] = 1
+        Method 2
+        Create an array O(n) space. Append the element if its not in the 
+        array; delete the element from the array if you encounter it again.
+        The remaining element will be the 'single one'
+        """
 
-        return dict((v,k) for k,v in d.items()).get(1)
-
-        #Method 2:
-        d ={}
-        for i in range(0, len(nums)):
-            if nums[i] in d:
-                del d[nums[i]]
-            else:
-                d[nums[i]] = 1
-
-        return d.popitem()[0]
-
-        # #Method 3:
+        """
+        Method 3
+        Your runtime beats 91.85 % of python submissions
+        """
         return 2 * sum(set(nums)) - sum(nums)

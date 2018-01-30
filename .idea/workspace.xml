@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/205_IsomorphicStrings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/92_ReverseLinkedListII.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/43_TheReport.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/50_Pow.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/50_Pow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/09_WeatherObservationStation4.sql" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/09_WeatherObservationStation4.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/16_WeatherObservationStation11.sql" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/16_WeatherObservationStation11.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/35_WeatherObservationStation16.sql" afterPath="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/35_WeatherObservationStation16.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -237,7 +229,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

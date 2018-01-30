@@ -32,7 +32,16 @@ class Solution(object):
 
         #         return output
 
-        # #Method 2:
+        """
+        Method 2:
+
+        Create two arrays - left and right, of size n
+        leftside products
+        rightside products
+
+        multiply them element wise to get the result
+        Your runtime beats 21.92 % of python submissions.
+        """
         n = len(nums)
 
         left = [1] * n

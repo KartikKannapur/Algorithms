@@ -1,59 +1,48 @@
-__author__ = "Kartik Kannapur"
+"""
+You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
-# #Linked List
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
 
+Example
 
-class Node:
-    def __init__(self, data):
-        self.data = data
-        self.next = None
-        
-        
-class LinkedList:
-    def __init__(self):
-        self.head = None
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+Explanation: 342 + 465 = 807.
+"""
 
-    def print_elements(self):
-    	current = self.head
+# Definition for singly-linked list.
+# class ListNode(object):
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
 
-    	while(current):
-    		print(current.data)
-    		current = current.next
+class Solution(object):
+    def addTwoNumbers(self, l1, l2):
+        """
+        :type l1: ListNode
+        :type l2: ListNode
+        :rtype: ListNode
+        """
 
-    def make_number(self):
-        num = ""
-        current = self.head
+        """
+        Method 1:
+        Your runtime beats 86.03 % of python submissions.
+        """
 
-        while(current):
-            # print(current.data)
-            num += str(current.data)
-            current = current.next
+        carry = 0
+        dummy = new_list = ListNode(0)
+        while l1 or l2 or carry:
+            v1 = v2 = 0
+            if l1:
+                v1 = l1.val
+                l1 = l1.next
+            if l2:
+                v2 = l2.val
+                l2 = l2.next
 
-        return(int(num))
+            carry, val = divmod(v1 + v2 + carry, 10)
 
-if __name__ == "__main__":
-    l1 = LinkedList()
-    l2 = LinkedList()
+            new_list.next = ListNode(val)
+            new_list = new_list.next
+        return dummy.next
 
-    N11 = Node(9)
-    N12 = Node(8)
-    # N13 = Node(3)
-
-    N21 = Node(1)
-    # N22 = Node(6)
-    # N23 = Node(4)
-
-    l1.head = N11
-    N11.next = N12
-    # N12.next = N13
-
-    l2.head = N21
-    # N21.next = N22
-    # N22.next = N23
-
-    ##############
-
-    val1 = l1.make_number()
-    val2 = l2.make_number()
-    print(val1, val2)
-    print(val1 + val2)

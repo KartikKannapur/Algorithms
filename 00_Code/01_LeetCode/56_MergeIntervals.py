@@ -5,7 +5,6 @@ For example,
 Given [1,3],[2,6],[8,10],[15,18],
 return [1,6],[8,10],[15,18].
 
-Your runtime beats 74.99 % of python submissions.
 """
 
 
@@ -20,6 +19,10 @@ class Solution(object):
         """
         :type intervals: List[Interval]
         :rtype: List[Interval]
+        """
+        """
+        Method 1: Sort + Stack
+        Your runtime beats 86.42 % of python submissions.
         """
         if len(intervals) == 0: return []
 

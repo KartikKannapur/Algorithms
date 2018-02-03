@@ -19,6 +19,9 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        """
+        Refactor this code
+        """
         next_ptr = 0
         max_length = 0
         d = {}

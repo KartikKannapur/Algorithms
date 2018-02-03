@@ -29,7 +29,7 @@ class Solution(object):
 
         """
         Method 2:
-        Reverse hald the Linked List
+        Reverse half the Linked List
 
         1. Finding the middle node
         2. Reverse the linked list

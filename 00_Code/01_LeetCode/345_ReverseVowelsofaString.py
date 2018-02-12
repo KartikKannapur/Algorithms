@@ -20,8 +20,13 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
+        """
+        Method 1: Two Pointers
+        Representing vowel as an array - Your runtime beats 35.89 % of python submissions.
+        Representing vowel as a set(as below) - Your runtime beats 93.78 % of python submissions.
+        """
         s = list(s)
-        vowel = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
+        vowel = {"a", "e", "i", "o", "u", "A", "E", "I", "O", "U"}
         low = 0
         high = len(s) - 1
 

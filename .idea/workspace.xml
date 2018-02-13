@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/594_LongestHarmoniousSubsequence.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/237_DeleteNodeinaLinkedList.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/237_DeleteNodeinaLinkedList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/344_ReverseString.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/344_ReverseString.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/345_ReverseVowelsofaString.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/345_ReverseVowelsofaString.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/372_SuperPow.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/372_SuperPow.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/771_JewelsandStones.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/771_JewelsandStones.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="237_DeleteNodeinaLinkedList.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="237_DeleteNodeinaLinkedList.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/237_DeleteNodeinaLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="130">
@@ -72,51 +70,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="00_SelectRandom5LeetCode.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/00_SelectRandom5LeetCode.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="000_SelectRandomMLTopics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="52">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="594_LongestHarmoniousSubsequence.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/594_LongestHarmoniousSubsequence.py">
+      <file leaf-file-name="17_LetterCombinationsofaPhoneNumber.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="596_ClassesMoreThan5Students.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="150_EvaluateReversePolishNotation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2106">
+              <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="75_SortColors.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="799">
-              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="303_RangeSumQueryImmutable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/303_RangeSumQueryImmutable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
-              <caret line="34" column="38" lean-forward="false" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="307_RangeSumQueryMutable.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/307_RangeSumQueryMutable.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -137,9 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/238_ProductofArrayExceptSelf.py" />
-        <option value="$PROJECT_DIR$/00_Code/02_HackerRank/SQL/43_TheReport.sql" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/369_PlusOneLinkedList.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/445_AddTwoNumbersII.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/328_OddEvenLinkedList.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/86_PartitionList.py" />
@@ -181,13 +176,16 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/779_K-thSymbolinGrammar.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/303_RangeSumQueryImmutable.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/307_RangeSumQueryMutable.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/594_LongestHarmoniousSubsequence.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/771_JewelsandStones.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/344_ReverseString.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/345_ReverseVowelsofaString.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/372_SuperPow.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/237_DeleteNodeinaLinkedList.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py" />
       </list>
     </option>
   </component>
@@ -354,30 +352,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/462_MinimumMovestoEqualArrayElementsII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/463_IslandPerimeter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-412">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/476_NumberComplement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/485_MaxConsecutiveOnes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-371">
@@ -485,13 +459,6 @@
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -702,14 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/594_LongestHarmoniousSubsequence.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
@@ -754,6 +713,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2106">
+          <caret line="81" column="0" lean-forward="true" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>

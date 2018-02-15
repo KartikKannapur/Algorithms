@@ -5,7 +5,10 @@ arr_ml_topics = [
     "Distance Metrics",
     "kNN",
     "Naive Bayes",
-    "ROC Curve - Binary Classification"
+    "Random Forests",
+    "Regression Trees - Building a Tree and Recursive Binary Splitting",
+    "Regularization - Ridge and LASSO",
+    "ROC Curve - Binary Classification",
     "SVM - Intro to SVC",
     "SVM - SVC and Kernels"
 ]

@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="000_SelectRandomMLTopics.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="000_SelectRandomMLTopics.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="234">
+              <caret line="9" column="37" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -110,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="75_SortColors.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="75_SortColors.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="799">
@@ -182,10 +178,10 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/345_ReverseVowelsofaString.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/372_SuperPow.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/237_DeleteNodeinaLinkedList.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/150_EvaluateReversePolishNotation.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/75_SortColors.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
       </list>
     </option>
   </component>
@@ -717,14 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -753,6 +741,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="37" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>

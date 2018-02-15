@@ -21,7 +21,7 @@ class Solution(object):
 
         """
         Method 1: Binary Search
-        Your runtime beats 48.65 % of python submissions.
+        Your runtime beats 28.37 % of python submissions.
         """
         low = 0
         high = n

@@ -20,10 +20,9 @@ class Solution(object):
         :rtype: bool
         """
         """
-        Method 1: Modification of the Two Sum problem
+        Method 1: Two Pointers
 
         Your runtime beats 80.45 % of python submissions.
-        Does x*x work faster than x**2?
         """
         low = 0
         high = int(c ** 0.5) + 1

@@ -1,24 +1,29 @@
-# #Determine whether an integer is a palindrome. Do this without extra space.
-
+"""
+Determine whether an integer is a palindrome. Do this without extra space.
+"""
 class Solution(object):
-    def reverseNumber(self, number):
+    """
+    Method 1:
+    Reverse the number via sting operations and compare
+    Your runtime beats 22.13 % of python submissions.
 
-        arr_input = str(number)
+    Method 2: Two Pointer
+    Your runtime beats 21.98 % of python submissions.
+    """
 
-        if arr_input[0] == "-":
-            return "Hello"
-
-        else:
-            result = (int(arr_input[::-1]))
-            return (result)
+    """
+    Method 3:
+    Your runtime beats 43.28 % of python submissions.
+    """
 
     def isPalindrome(self, x):
         """
         :type x: int
         :rtype: bool
         """
-
-        if x == self.reverseNumber(x):
-            return True
-        else:
+        if str(x)[0] == "-":
             return False
+
+        if str(x) == str(x)[::-1]:
+            return True
+        return False

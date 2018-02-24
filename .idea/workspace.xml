@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,16 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="000_SelectRandomMLTopics.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="195_TenthLine.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/195_TenthLine.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="763_PartitionLabels.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="763_PartitionLabels.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="799">
@@ -107,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="153_FindMinimuminRotatedSortedArray.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/153_FindMinimuminRotatedSortedArray.py">
+      <file leaf-file-name="378_KthSmallestElementinaSortedMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="702">
+              <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="640_SolvetheEquation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -132,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/540_SingleElementinaSortedArray.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/196_DeleteDuplicateEmails.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/177_NthHighestSalary.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/744_FindSmallestLetterGreaterThanTarget.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/605_CanPlaceFlowers.py" />
@@ -183,6 +182,8 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/231_PowerofTwo.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/191_Numberof1Bits.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py" />
       </list>
     </option>
   </component>
@@ -349,22 +350,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/557_ReverseWordsinaStringIII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/566_ReshapetheMatrix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-449">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/575_DistributeCandies.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
@@ -748,6 +733,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="799">
           <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding />
         </state>
       </provider>

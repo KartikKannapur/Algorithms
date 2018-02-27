@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,16 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="195_TenthLine.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/195_TenthLine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="9_PalindromeNumber.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/9_PalindromeNumber.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,6 +76,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="162_FindPeakElement.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="763_PartitionLabels.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="640_SolvetheEquation.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="640_SolvetheEquation.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="149">
@@ -172,7 +170,6 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/LeetCodeExplore_BinarySearch.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/278_FirstBadVersion.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/153_FindMinimuminRotatedSortedArray.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/195_TenthLine.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/9_PalindromeNumber.py" />
@@ -184,6 +181,7 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py" />
       </list>
     </option>
   </component>
@@ -649,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/153_FindMinimuminRotatedSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -749,6 +739,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="25" column="11" lean-forward="true" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding />
         </state>
       </provider>

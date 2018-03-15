@@ -1,39 +1,48 @@
-__author__ = "Kartik Kannapur"
+"""
+Given a string, find the length of the longest substring without repeating characters.
+
+Examples:
+
+Given "abcabcbb", the answer is "abc", which the length is 3.
+
+Given "bbbbb", the answer is "b", with the length of 1.
+
+Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
+
+Your runtime beats 86.09 % of python submissions.
+"""
+
 
 class Solution(object):
-	
-	def my_func(self, s, l):
-		longest = s[0]
-		# l = len(longest)
+    def lengthOfLongestSubstring(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        """
+        Method 1: Hash Table
+        Your runtime beats 88.39 % of python submissions.
 
-		for var_char in range(1, len(s)):
-			if s[var_char] in longest:
-				if len(longest) > l:
-					l = len(longest)
-				return(self.my_func(s[1:], l))
+        FOR each elem in the string:
+        IF the elem is present in the hash and the ptr is behind: update it
+        ELSE update the max length
 
-			else:
-				longest += s[var_char]
-				if len(longest) > l:
-					l = len(longest)
+        Constantly keep updating th index
+        """
+        ptr = 0
+        max_length = 0
+        d = {}
 
-		return(l)
-	
-	def lengthOfLongestSubstring(self, s):
-		"""
-		:type s: str
-		:rtype: int
-		"""
-		if len(s) < 1:
-			return(0)
-		
-		elif len(s) == 1:
-			return(1)
-		
-		else:
-			return(self.my_func(s, 0))
+        for index, ch in enumerate(s):
 
-soln = Solution()
-print(soln.lengthOfLongestSubstring("aaaaaaaaaaaabcabcdefgh"))
-		
-		
+            # #IF the elem is already present in the hash
+            # #increment the pointer by 1
+            if ch in d and ptr <= d[ch]:
+                ptr = d[ch] + 1
+            else:
+                max_length = max(max_length, index - ptr + 1)
+
+            # #Constantly update the index
+            d[ch] = index
+
+        return max_length

@@ -12,6 +12,19 @@ class Solution(object):
     """
 
     """
+    Function to Reverse a Number:
+
+    result = 0
+    while s:
+        rem = s%10
+        s = s//10
+        
+        result = result*10 + rem
+    
+        print(rem, s, result)
+    """
+
+    """
     Method 3:
     Your runtime beats 43.28 % of python submissions.
     """

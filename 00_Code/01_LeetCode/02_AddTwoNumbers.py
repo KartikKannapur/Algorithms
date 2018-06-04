@@ -16,6 +16,7 @@ Explanation: 342 + 465 = 807.
 #         self.val = x
 #         self.next = None
 
+
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
         """
@@ -31,18 +32,20 @@ class Solution(object):
 
         carry = 0
         dummy = new_list = ListNode(0)
+
         while l1 or l2 or carry:
-            v1 = v2 = 0
+            value1 = value2 = 0
             if l1:
-                v1 = l1.val
+                value1 = l1.val
                 l1 = l1.next
             if l2:
-                v2 = l2.val
+                value2 = l2.val
                 l2 = l2.next
 
-            carry, val = divmod(v1 + v2 + carry, 10)
+            carry, value_res = divmod(value1 + value2 + carry, 10)
 
-            new_list.next = ListNode(val)
+            # #Creating a new Linked List in the reverse order
+            new_list.next = ListNode(value_res)
             new_list = new_list.next
         return dummy.next
 

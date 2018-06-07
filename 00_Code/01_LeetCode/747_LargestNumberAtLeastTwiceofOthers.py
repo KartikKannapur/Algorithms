@@ -5,7 +5,7 @@ Find whether the largest element in the array is at least twice as much as every
 
 If it is, return the index of the largest element, otherwise return -1.
 
-Runtime: 42 ms
+Your runtime beats 80.31 % of python submissions.
 """
 
 
@@ -19,6 +19,7 @@ class Solution(object):
         """
         Method 1
         Using Python built-in functions
+        Your runtime beats 80.31 % of python submissions.
         """
         if len(nums) > 1:
             arr = sorted(nums, reverse=True)

@@ -21,7 +21,7 @@ Example 1:
 Input: [1,3,5,6], 0
 Output: 0
 
-Your runtime beats 60.70 % of python submissions
+Your runtime beats 98.52 % of python submissions.
 """
 
 class Solution(object):
@@ -43,6 +43,7 @@ class Solution(object):
             return len(nums)
 
         # #Method 2: O(logn) - Binary Search
+        # #Your runtime beats 98.52 % of python submissions.
         low = 0
         high = len(nums) - 1
         while low <= high:

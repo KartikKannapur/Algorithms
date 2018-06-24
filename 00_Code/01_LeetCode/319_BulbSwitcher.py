@@ -19,7 +19,10 @@ After third round, the three bulbs are [on, off, off].
 
 So you should return 1, because there is only one bulb is on.
 
-Your runtime beats 58.09 % of python submissions
+Your runtime beats 90.91 % of python submissions.
+35 / 35 test cases passed.
+Status: Accepted
+Runtime: 29 ms
 """
 
 

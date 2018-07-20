@@ -11,6 +11,8 @@ return [0, 1].
 
 Your runtime beats 90.20 % of python submissions.
 """
+
+
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -28,12 +30,11 @@ class Solution(object):
         #                 dict_diff[target - nums[elem]] = elem
         #                 # print(dict_diff)
 
-        # #Method 2 - Elegant Solution
-        # #Your runtime beats 90.20 % of python submissions.
+        # #Method 2
         d = {}
 
-        for i, j in enumerate(nums):
-            if j in d:
-                return [i, d[j]]
+        for index, value in enumerate(nums):
+            if value in d:
+                return [index, d[value]]
             else:
-                d[target - j] = i
+                d[target - value] = index

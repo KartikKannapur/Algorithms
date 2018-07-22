@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/11_ContainerWithMostWater.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/190_ReverseBits.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/275_H_IndexII.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,36 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="456_132Pattern.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/456_132Pattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="319_BulbSwitcher.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/319_BulbSwitcher.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="812_LargestTriangleArea.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/812_LargestTriangleArea.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="01_TwoSum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,7 +39,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="806_NumberofLinesToWriteString.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="806_NumberofLinesToWriteString.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/806_NumberofLinesToWriteString.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="823">
@@ -77,11 +49,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="196_DeleteDuplicateEmails.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/196_DeleteDuplicateEmails.py">
+      <file leaf-file-name="239_SlidingWindowMaximum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="849">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="190_ReverseBits.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/190_ReverseBits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="78_Subsets.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="274_H_Index.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/274_H_Index.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="275_H_IndexII.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/275_H_IndexII.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="807_MaxIncreasetoKeepCitySkyline.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/807_MaxIncreasetoKeepCitySkyline.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="11_ContainerWithMostWater.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/11_ContainerWithMostWater.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,13 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/121_BestTimetoBuyandSellStock.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/122_BestTimetoBuyandSellStockII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/180_ConsecutiveNumbers.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/178_RankScores.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/46_Permutations.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/234_PalindromeLinkedList.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/397_IntegerReplacement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/779_K-thSymbolinGrammar.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/303_RangeSumQueryImmutable.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/307_RangeSumQueryMutable.py" />
@@ -153,6 +178,13 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/709_ToLowerCase.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/806_NumberofLinesToWriteString.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/190_ReverseBits.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/274_H_Index.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/275_H_IndexII.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/807_MaxIncreasetoKeepCitySkyline.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/11_ContainerWithMostWater.py" />
       </list>
     </option>
   </component>
@@ -325,55 +357,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/13_WeatherObservationStation8.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/14_WeatherObservationStation9.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/15_WeatherObservationStation10.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/16_WeatherObservationStation11.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/17_WeatherObservationStation12.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/18_HigherThan75Marks.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/19_EmployeeNames.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/20_EmployeeSalaries.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -694,6 +677,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/190_ReverseBits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="53" lean-forward="false" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/274_H_Index.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="33" column="29" lean-forward="false" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/275_H_IndexII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="42" column="29" lean-forward="false" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/807_MaxIncreasetoKeepCitySkyline.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="96" column="0" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/11_ContainerWithMostWater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>

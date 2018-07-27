@@ -8,15 +8,19 @@ Note:
 Each element in the result must be unique.
 The result can be in any order.
 
-Your runtime beats 53.48 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def intersection(self, nums1, nums2):
         """
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: List[int]
+        """
+
+        """
+        Method 1:
+        Your runtime beats 84.78 % of python3 submissions.
         """
         return list(set(nums1).intersection(set(nums2)))

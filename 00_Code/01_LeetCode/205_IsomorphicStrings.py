@@ -26,6 +26,10 @@ class Solution(object):
         """
         """
         Method 1 - Hash Map
+        - Basic check: If the two strings are of equal length
+        - Iteratively add elements and check the hash map
+        - O(n) operation
+
         Your runtime beats 99.27 % of python submissions.
         """
         if len(s) != len(t):
@@ -33,13 +37,13 @@ class Solution(object):
 
         d = {}
 
-        for i, j in enumerate(s):
-            if j in d:
-                if d[j] != t[i]:
+        for index, letter in enumerate(s):
+            if letter in d:
+                if d[letter] != t[index]:
                     return False
-            elif (t[i] in d.values()):
+            elif t[index] in d.values():
                 return False
             else:
-                d[j] = t[i]
+                d[letter] = t[index]
 
         return True

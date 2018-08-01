@@ -23,7 +23,7 @@ No duplicates in both lists.
 """
 
 
-class Solution(object):
+class Solution():
     def findRestaurant(self, list1, list2):
         """
         :type list1: List[str]
@@ -31,19 +31,28 @@ class Solution(object):
         :rtype: List[str]
         """
         """
-        Method 1: Hash table
-        Your runtime beats 48.87 % of python submissions
+        Method 1: Hash table - Beautiful Solution
+
+        * Initially, enumerate through list1 - key:restaurant, value:[1, index]
+        * Enumerate through list2:
+        IF the value is in d, then it indicates the common restaurant
+        we are interested in - key:restaurant, value:[2, sum(indexes)]
+        * Filter out only those elements in the dict which have a value[0] == 2,
+        implying that they occur in both the lists; this helps us find the
+        minimum sum of one or more restaurants
+        Note: We have to find the minimum sum earlier, since there can be 
+        multiple restaurants
+
+        Your runtime beats 61.37 % of python3 submissions.
         """
         d = {}
 
-        # #We can ignore th ELSE condition, since
-        # #the elements must be present in both 1 and 2
         for i, j in enumerate(list1):
             d[j] = [1, i]
 
         for i, j in enumerate(list2):
             if j in d:
-                d[j][0] += 1
+                d[j][0] = 2
                 d[j][1] += i
 
         min_sum = min([v[1] for k, v in d.items() if v[0] == 2])
@@ -54,7 +63,3 @@ class Solution(object):
                 arr_restaurant.append(key)
 
         return arr_restaurant
-
-
-
-

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,36 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="219_ContainsDuplicateII.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/219_ContainsDuplicateII.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1170">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="45" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="349_IntersectionofTwoArrays.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/349_IntersectionofTwoArrays.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="202_HappyNumber.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/202_HappyNumber.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="720_LongestWordinDictionary.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/720_LongestWordinDictionary.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -106,11 +76,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="599_MinimumIndexSumofTwoLists.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="599_MinimumIndexSumofTwoLists.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1209">
               <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="239_SlidingWindowMaximum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="797">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="480_SlidingWindowMedian.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/480_SlidingWindowMedian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="295_FindMedianfromDataStream.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/295_FindMedianfromDataStream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="771">
+              <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -131,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/191_Numberof1Bits.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/763_PartitionLabels.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/378_KthSmallestElementinaSortedMatrix.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/640_SolvetheEquation.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/162_FindPeakElement.py" />
@@ -154,7 +152,6 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/709_ToLowerCase.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/806_NumberofLinesToWriteString.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/190_ReverseBits.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/274_H_Index.py" />
@@ -182,6 +179,9 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/676_ImplementMagicDictionary.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/648_ReplaceWords.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/480_SlidingWindowMedian.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/295_FindMedianfromDataStream.py" />
       </list>
     </option>
   </component>
@@ -354,20 +354,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/42_AveragePopulationofEachContinent.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/43_TheReport.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/02_HackerRank/SQL/44_TopCompetitors.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -519,14 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="823">
           <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -751,6 +729,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1209">
           <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/239_SlidingWindowMaximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="797">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/480_SlidingWindowMedian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/295_FindMedianfromDataStream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="59" column="28" lean-forward="false" selection-start-line="59" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding />
         </state>
       </provider>

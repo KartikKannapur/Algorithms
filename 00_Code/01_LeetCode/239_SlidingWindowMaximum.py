@@ -24,7 +24,7 @@ Could you solve it in linear time?
 """
 
 
-class Solution(object):
+class Solution():
     def maxSlidingWindow(self, nums, k):
         """
         :type nums: List[int]
@@ -33,7 +33,7 @@ class Solution(object):
         """
         """
         Method 1: O(nk)
-        Your runtime beats 17.99 % of python submissions.
+        Your runtime beats 19.88 % of python submissions.
 
         """
         if nums:

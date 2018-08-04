@@ -12,16 +12,26 @@ What if the given array is already sorted? How would you optimize your algorithm
 What if nums1's size is small compared to nums2's size? Which algorithm is better?
 What if elements of nums2 are stored on disk, and the memory is limited such that you cannot load all elements into the memory at once?
 
-Your runtime beats 58.18 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution():
     def intersect(self, nums1, nums2):
         """
         :type nums1: List[int]
         :type nums2: List[int]
         :rtype: List[int]
+        """
+        """
+        Method 1:
+
+        * Create two Counters - for each nums1 and num2
+        * Iterate over one of the counter objects and check if the same
+        key exists in the other counter object. (Intersection)
+        * IF it does, take the minimum of the values
+        * Append the values to the res array
+
+        Your runtime beats 98.97 % of python3 submissions.
         """
         from collections import Counter
         counter1 = Counter(nums1)

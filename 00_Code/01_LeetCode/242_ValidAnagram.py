@@ -14,11 +14,16 @@ Your runtime beats 47.05 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def isAnagram(self, s, t):
         """
         :type s: str
         :type t: str
         :rtype: bool
+        """
+
+        """
+        Method 1:
+        Your runtime beats 33.07 % of python3 submissions.
         """
         return sorted(s) == sorted(t)

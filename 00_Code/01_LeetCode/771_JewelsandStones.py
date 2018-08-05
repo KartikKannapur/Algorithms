@@ -17,50 +17,29 @@ S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
 """
 
-class Solution(object):
+
+class Solution:
     def numJewelsInStones(self, J, S):
         """
         :type J: str
         :type S: str
         :rtype: int
         """
-        """
-        Method 1: Using the count module in Python
-        254 / 254 test cases passed.
-        Status: Accepted
-        Runtime: 38 ms
-        """
-        counter = 0
-
-        for ele in set(J):
-            counter += S.count(ele)
-
-        return counter
 
         """
-        Method 2: Using a hash table
-        254 / 254 test cases passed.
-        Status: Accepted
-        Runtime: 38 ms
+        Method 1: One-liner
+        Your runtime beats 8.56 % of python3 submissions.
         """
-        dict_stones = {}
-        for ele in S:
-            if ele not in dict_stones:
-                dict_stones[ele] = 1
-            else:
-                dict_stones[ele] += 1
-
-        res = 0
-        for ele in set(J):
-            if ele in dict_stones:
-                res += dict_stones[ele]
-        return res
+        # return sum([S.count(ele) for ele in set(J)])
 
         """
-        Method 3: One-liner
-        Method 2: Using a hash table
-        254 / 254 test cases passed.
-        Status: Accepted
-        Runtime: 37 ms
+        Method 2: Using the Counter module
+        Your runtime beats 50.72 % of python3 submissions
         """
-        return sum([S.count(ele) for ele in set(J)])
+        from collections import Counter
+        total = 0
+        for k, v in Counter(S).items():
+            if k in J:
+                total += v
+
+        return total

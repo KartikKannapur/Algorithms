@@ -18,12 +18,21 @@ For example, given the above Employee table, the query should return 200 as the 
 
  */
 
--- Method 1
+-- Method 1 -- Actual Logic
+# SELECT DISTINCT Salary AS SecondHighestSalary FROM Employee
+# ORDER BY SecondHighestSalary DESC
+# LIMIT 1 OFFSET 1;
+
+-- Logic for LeetCode --
+-- Your runtime beats 98.61 % of mysql submissions --
 SELECT DISTINCT Salary AS SecondHighestSalary FROM Employee
-ORDER BY Salary DESC
-LIMIT 1 OFFSET 1;
+UNION
+SELECT NULL
+ORDER BY SecondHighestSalary DESC
+LIMIT 1 OFFSET 1
+
 
 -- Method 2
-SELECT MAX(Salary) AS SecondHighestSalary
-FROM Employee
-WHERE Salary < (SELECT MAX(Salary) FROM Employee)
+# SELECT MAX(Salary) AS SecondHighestSalary
+# FROM Employee
+# WHERE Salary < (SELECT MAX(Salary) FROM Employee)

@@ -8,7 +8,7 @@ Your runtime beats 53.77 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def maxProduct(self, nums):
         """
         :type nums: List[int]

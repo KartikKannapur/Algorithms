@@ -34,7 +34,7 @@ randomSet.getRandom();
 import random
 
 
-class RandomizedSet(object):
+class RandomizedSet:
     """
     Method 1: Using a dictionary as the data structure
     Your runtime beats 41.23 % of python submissions.
@@ -76,7 +76,9 @@ class RandomizedSet(object):
         Get a random element from the set.
         :rtype: int
         """
-        return random.choice(self.d.keys())
+        # #Python2 - self.d.keys()
+        # #Python3 - list(self.d.keys())
+        return random.choice(list(self.d.keys()))
 
 
 

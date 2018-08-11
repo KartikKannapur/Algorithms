@@ -13,10 +13,13 @@ Output: 5
 Your runtime beats 84.16 % of python submissions.
 """
 
-class Solution(object):
+class Solution:
     def countSegments(self, s):
         """
         :type s: str
         :rtype: int
+        """
+        """
+        Your runtime beats 100.00 % of python3 submissions.
         """
         return len(s.split())

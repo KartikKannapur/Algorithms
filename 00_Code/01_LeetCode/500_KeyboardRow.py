@@ -12,32 +12,42 @@ You may assume the input string will only contain letters of alphabet.
 """
 
 
-class Solution(object):
+class Solution:
     def findWords(self, words):
         """
         :type words: List[str]
         :rtype: List[str]
         """
-        # #Method 1 - Your runtime beats 69.65 % of python submissions.
-        dict_chars = dict([(j, 1) for i,j in enumerate("qwertyuiop")])
-        dict_chars.update(dict([(j, 2) for i,j in enumerate("asdfghjkl")]))
-        dict_chars.update(dict([(j, 3) for i,j in enumerate("zxcvbnm")]))
+        #         # #Method 1 - Your runtime beats 69.65 % of python submissions.
+        #         dict_chars = dict([(j, 1) for i,j in enumerate("qwertyuiop")])
+        #         dict_chars.update(dict([(j, 2) for i,j in enumerate("asdfghjkl")]))
+        #         dict_chars.update(dict([(j, 3) for i,j in enumerate("zxcvbnm")]))
 
-        res = []
+        #         res = []
 
-        for word in words:
-            word_low = word.lower()
-            if all(dict_chars[varchar] == dict_chars[word_low[0]] for varchar in word_low[1:]):
-                res.append(word)
+        #         for word in words:
+        #             word_low = word.lower()
+        #             if all(dict_chars[varchar] == dict_chars[word_low[0]] for varchar in word_low[1:]):
+        #                 res.append(word)
 
 
-        return(res)
+        #         return(res)
 
-        # #Method 2
+        """
+        Method 2 - Hash Set
+
+        * Create a hash set of the letters in each row, manually
+        * For convert the words into a set and check if the
+        difference is a null set
+
+        Your runtime beats 74.66 % of python3 submissions
+        """
+        # #Create a hash set of the letters in each row, manually
         set_1 = set("qwertyuiop")
         set_2 = set("asdfghjkl")
         set_3 = set("zxcvbnm")
 
+        # #For convert the words into a set and check if the difference is a null set
         return [word for word in words if
                 (set(word.lower()) - set_1 == set()) or (set(word.lower()) - set_2 == set()) or (
                 set(word.lower()) - set_3 == set())]

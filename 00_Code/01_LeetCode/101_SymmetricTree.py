@@ -26,42 +26,37 @@ Bonus points if you could solve it both recursively and iteratively.
 #         self.left = None
 #         self.right = None
 
-class Solution(object):
-    def isSymmetric(self, root):
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def isSameTree(self, p, q):
         """
-        :type root: TreeNode
+        :type p: TreeNode
+        :type q: TreeNode
         :rtype: bool
         """
 
         """
-        Method 1 - Recursive - isMirror function()
+        Method 1: Recursive approach
 
-        isMirror(left, right)
-        IF left.val == right.val:
-            isMirror(left.left, right.right)
-            and
-            isMirror(left.right, right.left)
+        * Check if the root nodes are equal
+        * Then recursively call the isSameTree() method on
+        the left and right nodes
 
-        Your runtime beats 41.15 % of python submissions.
-
-        If we are running this iteratively, then we must use a stack
+        Your runtime beats 94.40 % of python3 submissions
         """
 
-        def isMirror(left, right):
-            if left is None and right is None:
-                return True
-            if left is None or right is None:
-                return False
-
-            if left.val == right.val:
-                outPair = isMirror(left.left, right.right)
-                inPair = isMirror(left.right, right.left)
-                return outPair and inPair
-            else:
-                return False
-
-        # #MAIN
-        if root is None:
+        # #To handle None cases
+        if not p and not q:
             return True
-        else:
-            return isMirror(root.left, root.right)
+
+        # #Then recursively call the isSameTree() method on he left and right nodes
+        if p and q:
+            return ((p.val == q.val) and (self.isSameTree(p.left, q.left)) and (self.isSameTree(p.right, q.right)))
+
+        return False

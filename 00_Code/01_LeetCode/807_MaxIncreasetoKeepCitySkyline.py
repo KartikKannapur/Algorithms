@@ -35,7 +35,7 @@ All buildings in grid[i][j] occupy the entire grid cell: that is, they are a 1 x
 """
 
 
-class Solution(object):
+class Solution:
     #     """
     #     Method 1:
     #     Loop through each element in the grid and find the

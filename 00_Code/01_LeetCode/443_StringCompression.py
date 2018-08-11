@@ -16,46 +16,63 @@ Your runtime beats 63.30 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def compress(self, chars):
         """
         :type chars: List[str]
         :rtype: int
         """
-        # #Method 1
-        from collections import Counter
-        arr = []
-        for kv in Counter(chars).items():
-            arr.append(kv[0])
-            arr.append(str(kv[1]))
 
-        return arr
+        """
+        Method 1: collection.Counter() or Hash Map() 
+        """
 
-        # #Method 2
-        dict_chars = {}
+        """
+        Method 2:
 
-        for var_char in chars:
-            if var_char in dict_chars:
-                dict_chars[var_char] += 1
+        * IF a single element is present in the array, return 1
+        * Initialize current_ptr=0, current_letter=chars[0]
+        and a counter to count the number of consecutive letters
+        * Enumerate through the array
+        IF the chars is same increment the counter. 
+        IF the chars is different, update the letter and counter
+        values in the array and move on
+        Your runtime beats 99.71 % of python3 submissions
+        """
+
+        # #Handling edge cases
+        # #IF a single element is present in the array, return 1
+        if len(chars) == 1:
+            return 1
+
+        # #Initialization
+        current_ptr = 0
+        current_letter = chars[0]
+        counter = 0
+
+        # #Enumerate through the array
+        for index, letter in enumerate(chars):
+            if letter == current_letter:
+                counter += 1
             else:
-                dict_chars[var_char] = 1
+                chars[current_ptr] = current_letter
+                current_ptr += 1
 
-        chars = []
-        for k,v in dict_chars.items():
-            chars.append(k)
-            chars.append(str(v))
+                # #Logic to handle cases specific to this code
+                if counter > 1:
+                    for ele in list(str(counter)):
+                        chars[current_ptr] = str(ele)
+                        current_ptr += 1
 
-        return len(chars)
+                counter = 1
+                current_letter = letter
 
-        # #Method 3:
-        anchor = write = 0
-        for read, c in enumerate(chars):
-            if read + 1 == len(chars) or chars[read + 1] != c:
-                chars[write] = chars[anchor]
-                write += 1
-                if read > anchor:
-                    for digit in str(read - anchor + 1):
-                        chars[write] = digit
-                        write += 1
-                anchor = read + 1
-        return write
+        # #Code to handle the last character
+        chars[current_ptr] = current_letter
+        # #Logic to handle cases specific to this code
+        if counter > 1:
+            for ele in list(str(counter)):
+                current_ptr += 1
+                chars[current_ptr] = str(ele)
+
+        chars[:] = chars[:current_ptr + 1]

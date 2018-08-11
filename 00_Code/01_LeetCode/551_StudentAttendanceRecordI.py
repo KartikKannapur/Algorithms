@@ -14,15 +14,21 @@ Example 2:
 Input: "PPALLL"
 Output: False
 
-Your runtime beats 89.20 % of python submissions
 """
 
 
-class Solution(object):
+class Solution:
     def checkRecord(self, s):
         """
         :type s: str
         :rtype: bool
         """
-        if (s.count("A") > 1) or (s.count("LLL") > 0): return False
+        """
+        Method 1:
+        * Check the occurrence of "A" or "LLL" 
+
+        Your runtime beats 99.77 % of python3 submissions.
+        """
+        if (s.count("A") > 1) or (s.count("LLL") > 0):
+            return False
         return True

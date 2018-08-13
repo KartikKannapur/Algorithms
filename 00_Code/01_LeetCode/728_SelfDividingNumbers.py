@@ -27,7 +27,12 @@ class Solution:
 
         """
         Method 1: Brute Force
-        Your runtime beats 11.65 % of python3 submissions
+
+        * IF statement to make sure that there are no 0's
+        in the num
+        * Recursively check for divisibility
+
+        Your runtime beats 19.21 % of python3 submissions
         """
         res = []
         for num in range(left, right + 1):

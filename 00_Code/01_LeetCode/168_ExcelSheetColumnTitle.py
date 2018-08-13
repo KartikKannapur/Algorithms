@@ -11,17 +11,26 @@ For example:
 27 -> AA
 28 -> AB
 
-Your runtime beats 27.05 % of python submissions.
 """
 
-class Solution(object):
+
+class Solution:
     def convertToTitle(self, n):
         """
         :type n: int
         :rtype: str
         """
+
+        """
+        Method 1:
+        * While n is still postive
+        * The key is to use divmod() recursively
+
+        Your runtime beats 100.00 % of python3 submissions
+        """
+
         res = ''
         while n:
             n, r = divmod(n - 1, 26)
-            res += chr(65 + r)
-        return(res[::-1])
+            res += chr(ord('A') + r)
+        return res[::-1]

@@ -2,6 +2,7 @@ import random
 
 arr_ml_topics = [
     "Bias Variance Tradeoff",
+    "Loss, Cost and Object Function - Regression, Classification",
     "MLE - Maximum Likelihood Estimator",
     "Normal Distribution - Univariate & Multivariate",
     "Simple Linear Regression",

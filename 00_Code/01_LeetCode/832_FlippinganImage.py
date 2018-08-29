@@ -24,7 +24,7 @@ Notes:
 """
 
 
-class Solution(object):
+class Solution:
     def flipAndInvertImage(self, A):
         """
         :type A: List[List[int]]
@@ -32,14 +32,14 @@ class Solution(object):
         """
         """
         Method 1:
-        Your runtime beats 86.68 % of python submissions.
-        """
-        # A = [ele[::-1] for ele in A]
-        # return [[1 if sub_ele==0 else 0 for sub_ele in ele] for ele in A]
 
+        * Horizontal Flip - each row must be reversed
+        * Inversion - each 0 is replaced by 1, and each 1 is replaced by 0
+
+        Your runtime beats 99.43 % of python submissions.
         """
-        Method 2: Same logic as Method 1, but a one-liner
-        Your runtime beats 86.68 % of python submissions.
-        """
-        # return [[1 if sub_ele==0 else 0 for sub_ele in ele] for ele in [ele[::-1] for ele in A]]
-        return [[1 if sub_ele == 0 else 0 for sub_ele in ele][::-1] for ele in A]
+        # #Horizontal Flip - each row must be reversed
+        A = [ele[::-1] for ele in A]
+
+        # #Inversion - each 0 is replaced by 1, and each 1 is replaced by 0
+        return [[1 if sub_ele == 0 else 0 for sub_ele in ele] for ele in A]

@@ -19,14 +19,12 @@ Your runtime beats 76.68 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def removeDuplicates(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-        # #Method 1:
-        # return len([nums[i] for i in range(0, len(nums)) if i == len(nums)-1 or nums[i+1] != nums[i]])
 
         """
         Method 2:
@@ -49,7 +47,8 @@ class Solution(object):
         unique element.
         Your runtime beats 76.68 % of python submissions.
         """
-        if len(nums) == 0: return 0
+        if len(nums) == 0:
+            return 0
 
         i = 0
         for j in range(1, len(nums)):
@@ -59,4 +58,3 @@ class Solution(object):
 
         # print(nums)
         return i + 1
-

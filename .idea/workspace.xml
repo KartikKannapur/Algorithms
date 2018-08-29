@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/169_MajorityElement.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/169_MajorityElement.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/229_MajorityElementII.py" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/229_MajorityElementII.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +19,28 @@
       <file leaf-file-name="000_SelectRandomMLTopics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+            <state relative-caret-position="104">
+              <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="643_MaximumAverageSubarrayI.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/643_MaximumAverageSubarrayI.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="674_LongestContinuousIncreasingSubsequence.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/674_LongestContinuousIncreasingSubsequence.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="871">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -49,21 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="888_FairCandySwap.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="888_FairCandySwap.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/888_FairCandySwap.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="693">
               <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="28_ImplementstrStr.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,16 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="551_StudentAttendanceRecordI.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/551_StudentAttendanceRecordI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="33" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -134,8 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/295_FindMedianfromDataStream.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/350_IntersectionofTwoArraysII.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/164_MaximumGap.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/49_GroupAnagrams.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" />
@@ -181,10 +176,12 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/273_IntegertoEnglishWords.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/168_ExcelSheetColumnTitle.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/728_SelfDividingNumbers.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/169_MajorityElement.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/229_MajorityElementII.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/888_FairCandySwap.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/674_LongestContinuousIncreasingSubsequence.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/643_MaximumAverageSubarrayI.py" />
       </list>
     </option>
   </component>
@@ -357,22 +354,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/164_MaximumGap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/49_GroupAnagrams.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="43" column="40" lean-forward="false" selection-start-line="43" selection-start-column="40" selection-end-line="43" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -729,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="41" lean-forward="false" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/169_MajorityElement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
@@ -757,6 +730,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
           <caret line="62" column="32" lean-forward="false" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/674_LongestContinuousIncreasingSubsequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/000_SelectRandomMLTopics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/643_MaximumAverageSubarrayI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="58" column="22" lean-forward="false" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding />
         </state>
       </provider>

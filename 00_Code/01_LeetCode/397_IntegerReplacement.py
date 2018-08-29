@@ -30,7 +30,7 @@ or
 """
 
 
-class Solution(object):
+class Solution:
     def integerReplacement(self, n):
         """
         :type n: int
@@ -38,17 +38,13 @@ class Solution(object):
         """
         """
         Method 1 - Recursion
-        Your runtime beats 7.44 % of python submissions.
+        Your runtime beats 19.61 % of python3 submissions
         """
         if n == 1:
             return 0
 
-        if n%2 == 1:
-            return 1 + min(self.integerReplacement(n+1), self.integerReplacement(n-1))
+        if n % 2 == 1:
+            return 1 + min(self.integerReplacement(n + 1), self.integerReplacement(n - 1))
 
-        elif n%2 == 0:
-            return 1 + self.integerReplacement(n//2)
-
-        """
-        Method 2 - Memoization ?
-        """
+        elif n % 2 == 0:
+            return 1 + self.integerReplacement(n // 2)

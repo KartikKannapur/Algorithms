@@ -2,7 +2,11 @@ import random
 
 arr_ml_topics = [
     "Bias Variance Tradeoff",
+    "Gaussian/Normal Distribution",
     "Hyperparameter Optimization",
+    "Hypothesis Testing",
+    "Linear Model Selection - Best Subset, Stepwise Selection",
+    "Linear Model - Dimensionality Reduction Methods",
     "Logistic Regression",
     "Loss, Cost and Object Function - Regression, Classification",
     "MLE - Maximum Likelihood Estimator",

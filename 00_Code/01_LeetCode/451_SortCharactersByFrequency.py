@@ -38,11 +38,39 @@ Note that 'A' and 'a' are treated as two different characters.
 Your runtime beats 34.18 % of python submissions.
 """
 
-class Solution(object):
+
+class Solution:
     def frequencySort(self, s):
         """
         :type s: str
         :rtype: str
         """
-        return "".join([i[0]*i[1] for i in collections.Counter(list(s)).most_common()])
 
+        """
+        Method 1: Brute Force
+
+        * Maintain a dict with the character and count
+        * Sort the dictionary based on decreasing order of value
+        * Append the character to the res string, as many times
+        as the value
+
+        Your runtime beats 51.80 % of python3 submissions.
+        """
+
+        # #Maintain a dict with the character and count
+        d = {}
+        for char in s:
+            if char in d.keys():
+                d[char] += 1
+            else:
+                d[char] = 1
+
+        # #Sort the dictionary based on decreasing order of value
+        arr_res = sorted(d.items(), key=lambda ele: ele[1], reverse=True)
+
+        # #Append the character to the res string, as many times as the value
+        res = ""
+        for char, count in arr_res:
+            res += char * count
+
+        return res

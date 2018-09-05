@@ -28,18 +28,12 @@ class Solution:
 
         """
         Method 1: One-liner
-        Your runtime beats 8.56 % of python3 submissions.
+        Your runtime beats 62.81 % of python3 submissions.
         """
-        # return sum([S.count(ele) for ele in set(J)])
+        return sum([S.count(ele) for ele in set(J)])
 
-        """
-        Method 2: Using the Counter module
-        Your runtime beats 50.72 % of python3 submissions
-        """
-        from collections import Counter
-        total = 0
-        for k, v in Counter(S).items():
-            if k in J:
-                total += v
+        # #Another alternative, but slower as the
+        # #size of S increases
+        # return sum([1 for ele in S if ele in J])
 
-        return total
+

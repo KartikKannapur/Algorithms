@@ -55,12 +55,12 @@ class Solution(object):
 
         # #Get the lenghts of the two linked lists - headA and headB
         temp = headA
-        while temp is not None:
+        while temp:
             c1 += 1
             temp = temp.next
 
         temp = headB
-        while temp is not None:
+        while temp:
             c2 += 1
             temp = temp.next
 

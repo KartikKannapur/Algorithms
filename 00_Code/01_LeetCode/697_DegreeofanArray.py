@@ -21,7 +21,7 @@ nums[i] will be an integer between 0 and 49,999.
 """
 
 
-class Solution(object):
+class Solution:
     def findShortestSubArray(self, nums):
         """
         :type nums: List[int]
@@ -29,9 +29,13 @@ class Solution(object):
         """
         """
         Method 1: Using a Hash
-        Hash Map Schema - {element: [count, [first_occur_index, last_occur_index]]}
-        Your runtime beats 64.74 % of python submissions.
+
+        * Beautiful: Hash Map Schema - {element: [count, [first_occur_index, last_occur_index]]}
+        * Find the subarray with max_value
+
+        Your runtime beats 61.62 % of python submissions.
         """
+        # #Handling the edge-cases
         if len(nums) == 1:
             return 1
 
@@ -39,8 +43,8 @@ class Solution(object):
         max_counts = 0
         for i, j in enumerate(nums):
             if j in d:
-                d[j][0] += 1
-                d[j][1][1] = i
+                d[j][0] += 1  # #Increment the count
+                d[j][1][1] = i  # #Update the last_occur_index
 
                 if d[j][0] > max_counts:
                     max_counts = d[j][0]

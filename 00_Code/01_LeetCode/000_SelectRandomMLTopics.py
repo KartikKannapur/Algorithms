@@ -2,6 +2,8 @@ import random
 
 arr_ml_topics = [
     "Bias Variance Tradeoff",
+    "Curse of Dimensionality",
+    "Eigenvalues and Eigenvectors",
     "Gaussian/Normal Distribution",
     "Gradient Descent",
     "Hyperparameter Optimization",

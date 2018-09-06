@@ -21,7 +21,12 @@ class Solution(object):
         """
         """
         Method 1: Hash Table
-        Initialize the hash table with {0: 0}
+        * Initialize 
+        - counter
+        - max length variable
+        - hash table with {0: 0}
+
+        * Enumerate
         When we come across the number 0, we subtract 1 from count
         When we come across the number 1, we add 1 to count
 
@@ -36,15 +41,16 @@ class Solution(object):
         max_length = 0
         table = {0: 0}
 
-        for index, num in enumerate(nums, 1):
+        for index, num in enumerate(nums):
             if num == 0:
                 count -= 1
             else:
                 count += 1
 
             if count in table:
-                max_length = max(max_length, index - table[count])
+                print(table)
+                max_length = max(max_length, index + 1 - table[count])
             else:
-                table[count] = index
+                table[count] = index + 1
 
         return max_length

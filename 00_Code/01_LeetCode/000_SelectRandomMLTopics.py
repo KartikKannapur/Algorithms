@@ -3,6 +3,8 @@ import random
 arr_ml_topics = [
     "Bias Variance Tradeoff",
     "Curse of Dimensionality",
+    "Cross Validation Strategies",
+    "Decision Trees",
     "Eigenvalues and Eigenvectors",
     "Gaussian/Normal Distribution",
     "Gradient Descent",

@@ -14,18 +14,24 @@ Output: [1,2]
 """
 
 
-class Solution:
+class Solution(object):
     def majorityElement(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
         """
-        """
-        Method 1
+        # #Method 1
+        # return [x for x in set(nums) if nums.count(x) > len(nums) // 3]
 
-        * We need to find ALL elements that occur more than n//3 times
-        * Loop over all the elements and check their counts
-
-        Your runtime beats 99.57 % of python3 submissions
         """
-        return [x for x in set(nums) if nums.count(x) > len(nums) // 3]
+        Method 2: Hash Map & Array for result
+
+        Your runtime beats 97.30 % of python submissions.
+        """
+        res = []
+
+        for ele in set(nums):
+            if nums.count(ele) > len(nums) // 3:
+                res.append(ele)
+
+        return res

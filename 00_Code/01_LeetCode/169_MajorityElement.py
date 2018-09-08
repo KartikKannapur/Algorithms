@@ -13,26 +13,24 @@ Input: [2,2,1,1,1,2,2]
 Output: 2
 """
 
-class Solution:
+
+class Solution(object):
     def majorityElement(self, nums):
         """
         :type nums: List[int]
         :rtype: int
         """
-
         """
-        Method 1 - Using a Counter/Dictionary
-        Your runtime beats 61.71 % of python3 submissions
+        Method 1:
+
+        *IF the number must occur more than n/2 times in the array,
+        then when the array is sorted, it must be present in the
+        middle; irrespective of whether the element is the 
+        smallest or the largest.
+        * Sorting - O(nlogn)
+
+        Your runtime beats 99.73 % of python submissions.
         """
-        # return [x for x in set(nums) if nums.count(x) > len(nums) // 2][0]
 
+        return sorted(nums)[len(nums) // 2]
 
-        """
-        Method 2
-
-        * Sort the array
-        * The element in the middle should have occurred atleast n//2 times
-
-        Your runtime beats 61.71 % of python3 submissions
-        """
-        return sorted(nums)[(len(nums) // 2)]

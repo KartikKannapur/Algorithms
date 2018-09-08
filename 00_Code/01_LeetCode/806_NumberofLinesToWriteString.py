@@ -36,12 +36,21 @@ class Solution(object):
         """
         """
         Method 1:
+
+        * Create letter-cost dictionary
+        * Initialize line=1 and cost_sum=0
+        * Iterate through the characters of S add the cost to
+        a counter.
+        * IF the counter > 100, increment the line and
+        reinitialize the cost to 0
+
         Your runtime beats 100.00 % of python submissions
         """
         # #Create letter-cost dictionary
         letters = list('abcdefghijklmnopqrstuvwxyz')
         d = dict(zip(letters, widths))
 
+        # #Initialize
         line = 1
         cost_sum = 0
 
@@ -54,3 +63,4 @@ class Solution(object):
                 cost_sum += d[ele]
 
         return [line, cost_sum]
+

@@ -54,7 +54,7 @@ class Solution:
         through both the arrays, swapping them each time &
         finding the right combination of numbers where 
         the sums are equals
-        * But, usingthe difference between the sums of arrays
+        * But, using the difference between the sums of arrays
         is a better option
 
         * Calculate the var_diff = (sum(A) - sum(B))//2

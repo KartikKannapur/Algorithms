@@ -16,7 +16,7 @@ Your runtime beats 55.16 % of python submissions.
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class Solution:
     def mergeTwoLists(self, l1, l2):
         """
         :type l1: ListNode
@@ -25,7 +25,7 @@ class Solution(object):
         """
         """
         Method 1: Merge the LinkedLists Iteratively using
-        a dummy variable
+        a new dummy linked list
         We create a variable:
         dummy = current = ListNode(0)
 
@@ -35,6 +35,7 @@ class Solution(object):
         Your runtime beats 55.16 % of python submissions.
         """
         dummy = current = ListNode(0)
+
         while l1 and l2:
             if l1.val < l2.val:
                 current.next = l1
@@ -42,6 +43,12 @@ class Solution(object):
             else:
                 current.next = l2
                 l2 = l2.next
+
             current = current.next
-        current.next = l1 or l2
+
+        if l1:
+            current.next = l1
+        else:
+            current.next = l2
+
         return dummy.next

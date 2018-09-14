@@ -26,6 +26,7 @@ class Solution:
         checking the value of the next element.
         * If the next element is equal to the value of
         the node given, double jump the pointer
+        * Assign the val and node to the next.next pointer
 
         Your runtime beats 94.15 % of python3 submissions.
         """

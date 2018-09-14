@@ -18,13 +18,12 @@ All given inputs are in lowercase letters a-z.
 """
 
 
-class Solution:
+class Solution(object):
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
-
         """
         Method 1:
         * Start at index 1 and iterate through each word and 
@@ -33,17 +32,44 @@ class Solution:
 
         Your runtime beats 84.98 % of python3 submissions.
         """
+        #         if not strs:
+        #             return ""
+
+        #         if strs == [""]:
+        #             return ""
+
+        #         prefix_index = 1
+        #         max_length = max(len(ele) for ele in strs)
+        #         while prefix_index <= max_length and len(set([ele[:prefix_index] for ele in strs])) == 1:
+        #             print(strs[0][:prefix_index])
+        #             prefix_index += 1
+
+        #         # print(prefix_index-1)
+        #         return strs[0][:prefix_index-1]
+
+        """
+        Method 2:
+        """
+
         if not strs:
             return ""
 
         if strs == [""]:
             return ""
 
-        prefix_index = 1
-        max_length = max(len(ele) for ele in strs)
-        while prefix_index <= max_length and len(set([ele[:prefix_index] for ele in strs])) == 1:
-            print(strs[0][:prefix_index])
-            prefix_index += 1
+        prefix = strs[0]
 
-        print(prefix_index - 1)
-        return strs[0][:prefix_index - 1]
+        for ele in strs:
+            index = 1
+            while ele[:index] == prefix[:index]:
+                index += 1
+
+                if prefix[:index] == prefix:
+                    break
+
+                    # print(index, ele[:index], prefix[:index], prefix)
+            if ele[:index] != prefix[:index]:
+                index -= 1
+            prefix = prefix[:index]
+
+        return prefix

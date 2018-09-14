@@ -20,26 +20,34 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 """
 
 
-class Solution:
+class Solution(object):
     def romanToInt(self, s):
         """
         :type s: str
         :rtype: int
         """
+
         """
-        Method 1:
+        Method 1: Pointers
+
+        * Maintain two pointers one at i and one at i+1
+        * IF the ith pointer value is greater than the i+1, increment total
+        * ELSE decrement total, and the i+1th value will be incremented in the
+        next iteration
+
+        Your runtime beats 76.52 % of python submissions.
         """
 
         romans = {'M': 1000, 'D': 500, 'C': 100, 'L': 50, 'X': 10, 'V': 5, 'I': 1}
+        total = 0
 
-        prev_value = running_total = 0
+        for index, char in enumerate(s[:-1]):
 
-        for i in range(len(s) - 1, -1, -1):
-            int_val = romans[s[i]]
-            if int_val < prev_value:
-                running_total -= int_val
+            if romans[char] >= romans[s[index + 1]]:
+                total += romans[char]
             else:
-                running_total += int_val
-            prev_value = int_val
+                total -= romans[char]
 
-        return running_total
+                # print(char, s[index+1], total)
+        total += romans[s[-1]]
+        return total

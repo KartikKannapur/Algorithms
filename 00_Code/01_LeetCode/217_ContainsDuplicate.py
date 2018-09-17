@@ -20,27 +20,22 @@ Output: true
 """
 
 
-class Solution:
+class Solution(object):
     def containsDuplicate(self, nums):
         """
         :type nums: List[int]
         :rtype: bool
         """
-
         """
         Method 1:
-        """
-        #         if nums:
-        #             nums.sort()
-
-        #             for i in range(1,len(nums)):
-        #                 if nums[i] == nums[i-1]:
-        #                     return True
-        #         return False
 
 
         """
-        Method 2:
-        Your runtime beats 99.78 % of python3 submissions.
-        """
-        return len(nums) != len(set(nums))
+        d = set()
+
+        for ele in nums:
+            if ele in d:
+                return True
+            else:
+                d.add(ele)
+        return False

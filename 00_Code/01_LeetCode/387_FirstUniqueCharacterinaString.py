@@ -29,24 +29,19 @@ class Solution(object):
         d = {"char" : [first_index, counts]}
 
         Sort the dict, if counts == 1
+
+        Your runtime beats 73.59 % of python submissions.
         """
         d = {}
-        for index in range(len(s)):
-            if s[index] in d:
-                d[s[index]][1] += 1
+        for index, value in enumerate(s):
+            if value in d:
+                d[value][1] += 1
             else:
-                d[s[index]] = [index, 1]
+                d[value] = [index, 1]
 
+        # #Sort the dict, if counts == 1
         arr = sorted([value[0] for key, value in d.items() if value[1] == 1])
         if arr:
             return arr[0]
         else:
             return -1
-
-        # #Method 2
-        # Your runtime beats 82.75 % of python submissions.
-        index = [s.index(l) for l in set(s) if s.count(l) == 1]
-        return (min(index) if len(index) > 0 else -1)
-
-
-len(index) > 0 else -1)

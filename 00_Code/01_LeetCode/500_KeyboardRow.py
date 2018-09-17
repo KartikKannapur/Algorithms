@@ -12,43 +12,39 @@ You may assume the input string will only contain letters of alphabet.
 """
 
 
-class Solution:
+class Solution(object):
     def findWords(self, words):
         """
         :type words: List[str]
         :rtype: List[str]
         """
-        #         # #Method 1 - Your runtime beats 69.65 % of python submissions.
-        #         dict_chars = dict([(j, 1) for i,j in enumerate("qwertyuiop")])
-        #         dict_chars.update(dict([(j, 2) for i,j in enumerate("asdfghjkl")]))
-        #         dict_chars.update(dict([(j, 3) for i,j in enumerate("zxcvbnm")]))
-
-        #         res = []
-
-        #         for word in words:
-        #             word_low = word.lower()
-        #             if all(dict_chars[varchar] == dict_chars[word_low[0]] for varchar in word_low[1:]):
-        #                 res.append(word)
-
-
-        #         return(res)
 
         """
-        Method 2 - Hash Set
+        Method 1
 
-        * Create a hash set of the letters in each row, manually
-        * For convert the words into a set and check if the
-        difference is a null set
-
-        Your runtime beats 74.66 % of python3 submissions
+        Your runtime beats 100.00 % of python submissions.
         """
-        # #Create a hash set of the letters in each row, manually
         set_1 = set("qwertyuiop")
         set_2 = set("asdfghjkl")
         set_3 = set("zxcvbnm")
 
-        # #For convert the words into a set and check if the difference is a null set
-        return [word for word in words if
-                (set(word.lower()) - set_1 == set()) or (set(word.lower()) - set_2 == set()) or (
-                set(word.lower()) - set_3 == set())]
+        res = []
+        for ele in words:
+            count1 = 0
+            count2 = 0
+            count3 = 0
+
+            ele_low = ele.lower()
+            for char in ele_low:
+                if char in set_1:
+                    count1 += 1
+                elif char in set_2:
+                    count2 += 1
+                else:
+                    count3 += 1
+
+            if (count1 == len(ele)) or (count2 == len(ele)) or (count3 == len(ele)):
+                res.append(ele)
+
+        return res
 

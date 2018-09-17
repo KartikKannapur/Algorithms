@@ -28,7 +28,11 @@ class Solution(object):
         :type t: str
         :rtype: str
         """
-        # #Method 1:
+        """
+        Method 1
+
+        Your runtime beats 34.35 % of python submissions
+        """
         s = list(s)
         t = list(t)
         for ele in s:
@@ -36,5 +40,3 @@ class Solution(object):
 
         return t[0]
 
-        # #Method 2:
-        return list((collections.Counter(t) - collections.Counter(s)))[0]

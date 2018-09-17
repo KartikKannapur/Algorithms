@@ -18,22 +18,24 @@ The characters in J are distinct.
 """
 
 
-class Solution:
+class Solution(object):
     def numJewelsInStones(self, J, S):
         """
         :type J: str
         :type S: str
         :rtype: int
         """
-
         """
-        Method 1: One-liner
-        Your runtime beats 62.81 % of python3 submissions.
+        Method 1: Hash Set
+
+        Your runtime beats 93.13 % of python submissions.
         """
-        return sum([S.count(ele) for ele in set(J)])
+        counter = 0
 
-        # #Another alternative, but slower as the
-        # #size of S increases
-        # return sum([1 for ele in S if ele in J])
+        J = set(J)
+        for char in S:
+            if char in J:
+                counter += 1
 
+        return counter
 

@@ -40,7 +40,8 @@ for (int i = 0; i < len; i++) {
 
 """
 
-class Solution(object):
+
+class Solution:
     def removeElement(self, nums, val):
         """
         :type nums: List[int]
@@ -49,11 +50,20 @@ class Solution(object):
         """
 
         """
-        Method 1
-        Your runtime beats 83.37 % of python submissions.
+        Method 1 - Pythonic
+        Your runtime beats 80.37 % of python3 submissions.
         """
-        while val in nums:
-            nums.remove(val)
+        # while val in nums:
+        #     nums.remove(val)
 
 
+        """
+        Method 2 - Traverse from the back of the array
+        O(n)
+        Your runtime beats 80.37 % of python3 submissions.
+        """
 
+        l = len(nums)
+        for index in range(l):
+            if nums[l - index - 1] == val:
+                del nums[l - index - 1]

@@ -18,30 +18,44 @@ In this case, no transaction is done, i.e. max profit = 0.
 """
 
 
-class Solution(object):
+class Solution:
     def maxProfit(self, prices):
         """
         :type prices: List[int]
         :rtype: int
         """
-        """
-        Method 1: Naive Method - Brute Force
 
-        Method 2: O(n)
-        Your runtime beats 51.31 % of python submissions
         """
+        Method 1: Array
+
+        * Initially set buy to the first index & traverse
+        through the array
+        * IF the next index is smaller than `buy`, update `buy`
+        * At each index, compare the buy with the current index
+        i.e. the sell index
+        * At each index, update the max variable
+
+        Your runtime beats 41.97 % of python3 submissions.
+        """
+
         if not prices:
             return 0
 
-        low = prices[0]
-        maxProfit = 0
+        buy = prices[0]
+        sell = prices[0]
+        res = 0
 
         for ele in prices:
-            low = min(low, ele)
-            currentProfit = ele - low
-            maxProfit = max(currentProfit, maxProfit)
+            # #Update buy to the minimum value each time
+            buy = min(ele, buy)
 
-        return maxProfit
+            # #Update the sell value each time, as the
+            # #current value i.e. ele minus the buy value
+            sell = ele - buy
 
+            # #Update the result each time
+            res = max(sell, res)
+
+        return res
 
 

@@ -52,12 +52,12 @@ class Solution(object):
         """
         Method 1 - Linear Search
         O(n)
-        
-        165 / 165 test cases passed.
-        Status: Accepted
-        Runtime: 60 ms
         """
         for letter in letters:
             if letter > target:
                 return letter
         return letters[0]
+
+        """
+        Can be improved with Binary search
+        """

@@ -16,7 +16,7 @@ Output: false
 """
 
 
-class Solution:
+class Solution(object):
     def containsNearbyDuplicate(self, nums, k):
         """
         :type nums: List[int]
@@ -25,22 +25,14 @@ class Solution:
         """
 
         """
-        Method 1:
-        * Enumerate through the array - nums
-        * If the value exists in the dict, then check if the diff
-        between the indices is atmost k
-        * If not, then update the index
-        Your runtime beats 89.17 % of python3 submissions.
+        Method 1: Sliding Window in Array
+
+        i: 0 to len(nums)
+        j: i+1 to i+k+1
         """
-        d = dict()
 
-        for index, val in enumerate(nums):
-            if val in d:
-                if (index - d[val]) <= k:
+        for i in range(len(nums)):
+            for j in range(i + 1, i + k + 1):
+                if j < len(nums) and nums[i] == nums[j]:
                     return True
-
-                d[val] = index
-
-            else:
-                d[val] = index
         return False

@@ -14,7 +14,7 @@ Your runtime beats 47.05 % of python submissions.
 """
 
 
-class Solution:
+class Solution(object):
     def isAnagram(self, s, t):
         """
         :type s: str
@@ -23,7 +23,12 @@ class Solution:
         """
 
         """
-        Method 1:
-        Your runtime beats 33.07 % of python3 submissions.
+        Algorithm:
+
+        * Count the number of occurrences of each
+        character in both s and t and compare if they
+        are equal
+
+        Your runtime beats 35.24 % of python submissions.
         """
         return sorted(s) == sorted(t)

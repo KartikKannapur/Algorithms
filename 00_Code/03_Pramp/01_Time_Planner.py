@@ -70,3 +70,9 @@ def meeting_planner(slotsA, slotsB, dur):
             j += 1
 
     return []
+
+slotsA = [[10, 50], [60, 120], [140, 210]]
+slotsB = [[0, 15], [60, 70]]
+dur = 8
+
+meeting_planner(slotsA, slotsB, dur)

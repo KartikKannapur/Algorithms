@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" afterDir="false" />
@@ -11,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/811_SubdomainVisitCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/811_SubdomainVisitCount.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/83_RemoveDuplicatesfromSortedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/83_RemoveDuplicatesfromSortedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/852_PeakIndexinaMountainArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/852_PeakIndexinaMountainArray.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_Code/03_Pramp/01_Time_Planner.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/03_Pramp/01_Time_Planner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,22 +35,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="36" />
+          <entry key="py" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="36" />
+          <entry key="Python" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="177" />
+          <entry key="py" value="183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="177" />
+          <entry key="Python" value="183" />
         </counts>
       </usages-collector>
     </session>
@@ -105,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="626">
@@ -114,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state relative-caret-position="626">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
         </entry>
@@ -165,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/559_MaximumDepthofN-aryTree.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/515_FindLargestValueinEachTreeRow.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/429_N-aryTreeLevelOrderTraversal.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/102_BinaryTreeLevelOrderTraversal.py" />
@@ -216,6 +212,7 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/883_ProjectionAreaof3DShapes.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/869_ReorderedPowerof2.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py" />
       </list>
     </option>
   </component>
@@ -428,13 +425,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/199_BinaryTreeRightSideView.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/103_BinaryTreeZigzagLevelOrderTraversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2132">
@@ -774,6 +764,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="626">
           <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>

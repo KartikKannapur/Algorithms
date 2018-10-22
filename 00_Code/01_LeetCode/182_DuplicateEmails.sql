@@ -20,6 +20,7 @@ Note: All emails are in lowercase.
 Your runtime beats 91.84 % of mysql submissions
 */
 
-SELECT Email FROM Person
+SELECT Email
+FROM Person
 GROUP BY Email
 HAVING COUNT(*) > 1

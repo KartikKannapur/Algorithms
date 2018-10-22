@@ -23,3 +23,8 @@ Your runtime beats 99.91 % of mysql submissions
 SELECT E2.Name AS Employee FROM Employee AS E1 JOIN Employee AS E2
 ON E1.Id = E2.ManagerId
 WHERE E2.Salary > E1.Salary;
+
+SELECT A.name as Employee
+FROM Employee A JOIN Employee B
+ON A.ManagerId = B.Id
+WHERE A.Salary > B.Salary;

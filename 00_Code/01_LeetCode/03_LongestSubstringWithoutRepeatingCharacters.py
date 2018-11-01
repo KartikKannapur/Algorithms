@@ -13,7 +13,7 @@ Your runtime beats 86.09 % of python submissions.
 """
 
 
-class Solution(object):
+class Solution:
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str
@@ -21,13 +21,14 @@ class Solution(object):
         """
         """
         Method 1: Hash Table
-        Your runtime beats 88.39 % of python submissions.
 
-        FOR each elem in the string:
-        IF the elem is present in the hash and the ptr is behind: update it
-        ELSE update the max length
+        * Keep updating the index of each char
+        at each iteration
+        *NOTE:
+        1. IF ptr < d[ch]: update ptr to ptr=d[ch]+1
+        2. compare max_length with index-ptr+1
 
-        Constantly keep updating th index
+        Your runtime beats 97.18 % of python3 submissions.
         """
         ptr = 0
         max_length = 0
@@ -36,7 +37,8 @@ class Solution(object):
         for index, ch in enumerate(s):
 
             # #IF the elem is already present in the hash
-            # #increment the pointer by 1
+            # #and the ptr is less behind, update the pointer
+            # #and move it to the next index
             if ch in d and ptr <= d[ch]:
                 ptr = d[ch] + 1
             else:

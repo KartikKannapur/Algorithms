@@ -9,10 +9,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
-Your runtime beats 90.20 % of python submissions.
 """
-
-
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -20,21 +17,13 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        # #Method 1
-        #         dict_diff = {}
-
-        #         for elem in range(len(nums)):
-        #             if nums[elem] in dict_diff:
-        #                 return([elem, dict_diff[nums[elem]]])
-        #             else:
-        #                 dict_diff[target - nums[elem]] = elem
-        #                 # print(dict_diff)
-
-        # #Method 2
+        """
+        Algorithm - Standard Logic
+        Your runtime beats 100.00 % of python submissions.
+        """
         d = {}
-
         for index, value in enumerate(nums):
             if value in d:
-                return [index, d[value]]
+                return [d[value], index]
             else:
                 d[target - value] = index

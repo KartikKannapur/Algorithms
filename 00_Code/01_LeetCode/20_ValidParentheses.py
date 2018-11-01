@@ -7,45 +7,35 @@ Your runtime beats 70.47 % of python submissions.~
 """
 
 
-class Solution(object):
+class Solution:
     def isValid(self, s):
         """
         :type s: str
         :rtype: bool
         """
+
         """
         Method 1: Stack Code
         Your runtime beats 39.35 % of python submissions.
         """
-        #         stack = []
-        #         dict = {"]":"[", "}":"{", ")":"("}
-
-        #         for char in s:
-        #             if char in dict.values():
-        #                 stack.append(char)
-        #             elif char in dict.keys():
-        #                 if stack == [] or dict[char] != stack.pop():
-        #                     return False
-        #             else:
-        #                 return False
-        #         return stack == []
 
         """
         Method 2: Optimized Stack Code
 
-        Create a dict with the key-value pairs being
-        either pairs of a parentheses set.
+        Create a hash map with the key-value pairs being
+        either pairs of a parentheses set in reverse order.
 
         Check if the last element in the stack is the same as
+        the current element in the hash map
 
-        Your runtime beats 70.47 % of python submissions.
+        Your runtime beats 98.91 % of python3 submissions.
         """
         d = {"]": "[", "}": "{", ")": "("}
         stack = []
 
         for char in s:
-            if stack and (char in d and stack[-1] == d[char]):
+            if stack and (char in d) and (stack[-1] == d[char]):
                 stack.pop()
             else:
                 stack.append(char)
-        return stack == []
+        return not stack  # #If stack is empty: return True; else return False

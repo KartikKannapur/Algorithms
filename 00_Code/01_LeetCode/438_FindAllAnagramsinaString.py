@@ -39,7 +39,6 @@ class Solution:
         :type p: str
         :rtype: List[int]
         """
-
         """
         Method 1: Sliding window over the array
 
@@ -53,26 +52,29 @@ class Solution:
         sorted function.
 
         Completed 34/36 cases. This should be okay
+
+        Subsetting the window each time is an expensive operation;
+        in order to optimize it let's try and use a hash map
         """
-        res_index = []
+        #         res_index = []
+        #         k = len(p) # #window length
 
-        for index in range(len(s) + 1 - len(p)):
-            # print(s[index:index+len(p)])
-            if sorted(s[index:index + len(p)]) == sorted(p):
-                res_index.append(index)
+        #         for index in range(len(s)-k+1):
+        #             if sorted(s[index:index+k]) == sorted(p):
+        #                 res_index.append(index)
 
-        return res_index
+        #         return res_index
 
-        # # #Solution from the Discussion forum
-        # from collections import Counter
-        # res = []
-        # pCounter = Counter(p)
-        # sCounter = Counter(s[:len(p)-1])
-        # for i in range(len(p)-1,len(s)):
-        #     sCounter[s[i]] += 1   # include a new char in the window
-        #     if sCounter == pCounter:    # This step is O(1), since there are at most 26 English letters
-        #         res.append(i-len(p)+1)   # append the starting index
-        #     sCounter[s[i-len(p)+1]] -= 1   # decrease the count of oldest char in the window
-        #     if sCounter[s[i-len(p)+1]] == 0:
-        #         del sCounter[s[i-len(p)+1]]   # remove the count if it is 0
-        # return res
+        # #Solution from the Discussion forum
+        from collections import Counter
+        res = []
+        pCounter = Counter(p)
+        sCounter = Counter(s[:len(p) - 1])
+        for i in range(len(p) - 1, len(s)):
+            sCounter[s[i]] += 1  # include a new char in the window
+            if sCounter == pCounter:  # This step is O(1), since there are at most 26 English letters
+                res.append(i - len(p) + 1)  # append the starting index
+            sCounter[s[i - len(p) + 1]] -= 1  # decrease the count of oldest char in the window
+            if sCounter[s[i - len(p) + 1]] == 0:
+                del sCounter[s[i - len(p) + 1]]  # remove the count if it is 0
+        return res

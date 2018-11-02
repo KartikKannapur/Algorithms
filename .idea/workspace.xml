@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/14_LongestCommonPrefix.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/14_LongestCommonPrefix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/176_SecondHighestSalary.sql" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/176_SecondHighestSalary.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/178_RankScores.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/178_RankScores.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/260_SingleNumberIII.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/260_SingleNumberIII.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/338_CountingBits.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/338_CountingBits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/56_MergeIntervals.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/56_MergeIntervals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/620_NotBoringMovies.sql" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/620_NotBoringMovies.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/811_SubdomainVisitCount.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/811_SubdomainVisitCount.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/819_MostCommonWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/819_MostCommonWord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/83_RemoveDuplicatesfromSortedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/83_RemoveDuplicatesfromSortedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/852_PeakIndexinaMountainArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/852_PeakIndexinaMountainArray.py" afterDir="false" />
     </list>
@@ -29,28 +42,33 @@
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="3" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="37" />
+          <entry key="py" value="104" />
+          <entry key="sql" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="37" />
+          <entry key="Python" value="104" />
+          <entry key="SQL" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="183" />
+          <entry key="py" value="1461" />
+          <entry key="sql" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="183" />
+          <entry key="Python" value="1461" />
+          <entry key="SQL" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -58,93 +76,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/784_LetterCasePermutation.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/34_SearchforaRange.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/35_SearchInsertPosition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="1166">
+              <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/22_GenerateParentheses.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/36_ValidSudoku.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="418">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/89_GrayCode.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+            <state relative-caret-position="616">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/883_ProjectionAreaof3DShapes.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/20_ValidParentheses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="524">
-              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="902">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/869_ReorderedPowerof2.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/200_NumberofIslands.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="1518">
+              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/02_AddTwoNumbers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="624">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/139_WordBreak.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="624">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/814_BinaryTreePruning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/563_BinaryTreeTilt.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/513_FindBottomLeftTreeValue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="626">
-              <caret line="72" column="22" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="72" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/27_RemoveElement.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -162,48 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/515_FindLargestValueinEachTreeRow.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/429_N-aryTreeLevelOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/102_BinaryTreeLevelOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/199_BinaryTreeRightSideView.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/103_BinaryTreeZigzagLevelOrderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/107_BinaryTreeLevelOrderTraversalII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/637_AverageofLevelsinBinaryTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/71_SimplifyPath.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/121_BestTimetoBuyandSellStock.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/122_BestTimetoBuyandSellStockII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/90_SubsetsII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/606_ConstructStringfromBinaryTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/617_MergeTwoBinaryTrees.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/589_N-aryTreePreorderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/144_BinaryTreePreorderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/404_SumofLeftLeaves.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/590_N-aryTreePostorderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/145_BinaryTreePostorderTraversal.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/655_PrintBinaryTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/821_ShortestDistancetoaCharacter.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/543_DiameterofBinaryTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/687_LongestUnivaluePath.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/799_ChampagneTower.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/567_PermutationinString.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/457_CircularArrayLoop.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/98_ValidateBinarySearchTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/836_RectangleOverlap.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/223_RectangleArea.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/532_K-diffPairsinanArray.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/41_FirstMissingPositive.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/219_ContainsDuplicateII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/220_ContainsDuplicateIII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/717_1-bitand2-bitCharacters.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/48_RotateImage.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/392_IsSubsequence.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/744_FindSmallestLetterGreaterThanTarget.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/814_BinaryTreePruning.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/563_BinaryTreeTilt.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/513_FindBottomLeftTreeValue.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/784_LetterCasePermutation.py" />
@@ -213,6 +181,48 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/869_ReorderedPowerof2.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/260_SingleNumberIII.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/338_CountingBits.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/718_MaximumLengthofRepeatedSubarray.py" />
+        <option value="$USER_HOME$/Google Drive/My Notes/Statistics/Semester_3/AMS_598/Assignment_2/01_MapReduceJob.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/611_ValidTriangleNumber.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/79_WordSearch.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/64_MinimumPathSum.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/595_BigCountries.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/613_ShortestDistanceinaLine.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/584_FindCustomerReferee.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/620_NotBoringMovies.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/610_TriangleJudgement.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/603_ConsecutiveAvailableSeats.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/607_SalesPerson.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/182_DuplicateEmails.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/181_EmployeesEarningMoreThanTheirManagers.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/619_BiggestSingleNumber.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/570_ManagerswithatLeast5DirectReports.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/608_TreeNode.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/176_SecondHighestSalary.sql" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/626_ExchangeSeats.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/585_Investmentsin2016.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/322_CoinChange.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/332_ReconstructItinerary.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/56_MergeIntervals.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/670_MaximumSwap.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/574_WinningCandidate.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/178_RankScores.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/819_MostCommonWord.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/03_LongestSubstringWithoutRepeatingCharacters.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/05_LongestPalindromicSubstring.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/14_LongestCommonPrefix.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/12_IntegertoRoman.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/20_ValidParentheses.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/200_NumberofIslands.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/02_AddTwoNumbers.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/139_WordBreak.py" />
       </list>
     </option>
   </component>
@@ -373,7 +383,7 @@
     <frame x="71" y="-7" width="1472" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2592068" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27124646" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -425,352 +435,330 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/103_BinaryTreeZigzagLevelOrderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/620_NotBoringMovies.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2132">
-          <caret line="82" selection-start-line="34" selection-start-column="7" selection-end-line="82" />
+        <state relative-caret-position="193">
+          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/107_BinaryTreeLevelOrderTraversalII.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/610_TriangleJudgement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="528">
+          <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/515_FindLargestValueinEachTreeRow.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/603_ConsecutiveAvailableSeats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="73" column="18" selection-start-line="30" selection-start-column="8" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="528">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/637_AverageofLevelsinBinaryTree.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="51" column="58" selection-start-line="51" selection-start-column="58" selection-end-line="51" selection-end-column="58" />
+        <state relative-caret-position="624">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/71_SimplifyPath.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/607_SalesPerson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="624">
+          <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/121_BestTimetoBuyandSellStock.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/182_DuplicateEmails.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="550">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/102_BinaryTreeLevelOrderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/181_EmployeesEarningMoreThanTheirManagers.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="78" column="31" selection-start-line="75" selection-start-column="8" selection-end-line="78" selection-end-column="31" />
+        <state relative-caret-position="369">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/606_ConstructStringfromBinaryTree.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/619_BiggestSingleNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        <state relative-caret-position="616">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/617_MergeTwoBinaryTrees.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/596_ClassesMoreThan5Students.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="207">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/589_N-aryTreePreorderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/599_MinimumIndexSumofTwoLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="624">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/122_BestTimetoBuyandSellStockII.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/570_ManagerswithatLeast5DirectReports.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="71" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
+        <state relative-caret-position="536">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/78_Subsets.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/608_TreeNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="624">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/90_SubsetsII.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/176_SecondHighestSalary.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="647">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/100_SameTree.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/144_BinaryTreePreorderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/626_ExchangeSeats.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+        <state relative-caret-position="500">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/404_SumofLeftLeaves.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/585_Investmentsin2016.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
+        <state relative-caret-position="404">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/322_CoinChange.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/332_ReconstructItinerary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/56_MergeIntervals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/670_MaximumSwap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/574_WinningCandidate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/178_RankScores.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/819_MostCommonWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="54" column="17" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/03_LongestSubstringWithoutRepeatingCharacters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/6_ZigZagConversion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/9_PalindromeNumber.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/11_ContainerWithMostWater.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/13_RomantoInteger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/14_LongestCommonPrefix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/15_3Sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/16_3SumClosest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/05_LongestPalindromicSubstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/590_N-aryTreePostorderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/17_LetterCombinationsofaPhoneNumber.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="890">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="396">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/145_BinaryTreePostorderTraversal.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/18_4Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        <state relative-caret-position="-990" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/12_IntegertoRoman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="68" column="91" selection-start-line="68" selection-start-column="91" selection-end-line="68" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/655_PrintBinaryTree.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/19_RemoveNthNodeFromEndofList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="250">
+          <caret line="49" column="40" lean-forward="true" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/821_ShortestDistancetoaCharacter.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/21_MergeTwoSortedLists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/543_DiameterofBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="41" column="23" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="41" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/687_LongestUnivaluePath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/799_ChampagneTower.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/567_PermutationinString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="43" column="28" selection-start-line="36" selection-start-column="8" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/457_CircularArrayLoop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/532_K-diffPairsinanArray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/219_ContainsDuplicateII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/220_ContainsDuplicateIII.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="50" column="20" selection-start-line="50" selection-start-column="20" selection-end-line="50" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/717_1-bitand2-bitCharacters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1276">
-          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/41_FirstMissingPositive.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/609_FindDuplicateFileinSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="54" selection-start-line="68" selection-start-column="54" selection-end-line="68" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/48_RotateImage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1804">
-          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/339_NestedListWeightSum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="63" column="31" lean-forward="true" selection-start-line="63" selection-start-column="31" selection-end-line="63" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/392_IsSubsequence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/744_FindSmallestLetterGreaterThanTarget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/98_ValidateBinarySearchTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/836_RectangleOverlap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="102" column="106" selection-start-line="102" selection-start-column="106" selection-end-line="102" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/223_RectangleArea.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="57" selection-start-line="41" selection-start-column="57" selection-end-line="41" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/654_MaximumBinaryTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/814_BinaryTreePruning.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/563_BinaryTreeTilt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/513_FindBottomLeftTreeValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="72" column="22" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="72" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/784_LetterCasePermutation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+        <state relative-caret-position="126">
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/22_GenerateParentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="-1056" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/24_SwapNodesinPairs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/89_GrayCode.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/26_RemoveDuplicatesfromSortedArray.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+        <state relative-caret-position="-784" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/28_ImplementstrStr.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/33_SearchinRotatedSortedArray.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/34_SearchforaRange.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/35_SearchInsertPosition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1166">
+          <caret line="53" column="26" lean-forward="true" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/883_ProjectionAreaof3DShapes.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/36_ValidSudoku.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="418">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/869_ReorderedPowerof2.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/01_TwoSum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        <state relative-caret-position="616">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/242_ValidAnagram.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/20_ValidParentheses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="902">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/59_SpiralMatrixII.py">
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/200_NumberofIslands.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="1518">
+          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/27_RemoveElement.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/02_AddTwoNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/438_FindAllAnagramsinaString.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/139_WordBreak.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>

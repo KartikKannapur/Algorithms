@@ -18,7 +18,7 @@ and that "hit" isn't the answer even though it occurs more because it is banned.
 """
 
 
-class Solution(object):
+class Solution:
     def mostCommonWord(self, paragraph, banned):
         """
         :type paragraph: str
@@ -26,10 +26,16 @@ class Solution(object):
         :rtype: str
         """
 
-        # #Method 1:
-        # 46 / 46 test cases passed.
-        # Status: Accepted
-        # Runtime: 46 ms
+        """
+        Method 1:
+
+        * Use regex to clean the input string
+        * Split the string based on space and add the words
+        to a hash map
+        * Sort the keys by value in reverse order
+
+        Your runtime beats 82.78 % of python3 submissions.
+        """
 
         import re
         d = {}
@@ -41,10 +47,9 @@ class Solution(object):
                 d[word] += 1
             else:
                 d[word] = 1
-        print(d)
-        # #sort by value
-        for ele in sorted([(value, key) for (key, value) in d.items()], reverse=True):
-            if ele[1] not in banned:
-                return ele[1]
 
+        # #Sort by value in the reverse order
+        for word, count in sorted(d.items(), key=lambda ele: ele[1], reverse=True):
+            if word not in banned:
+                return word
         return -1

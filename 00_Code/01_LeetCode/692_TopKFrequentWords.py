@@ -32,13 +32,31 @@ class Solution:
         """
 
         """
-        Method 1:
+        Method 1: Hash Map
 
         * Use the built-in Counter function
         * Sort based on both key and value
 
         Your runtime beats 75.31 % of python3 submissions
+
+        Time Complexity: O(NlogN), where N is the length of words. 
+        We count the frequency of each word in O(N) time, 
+        then we sort the given words in O(NlogN) time
         """
-        words_counter = Counter(words).items()
-        words_counter_sorted = sorted(words_counter, key=lambda x: (-x[1], x[0]))
-        return [ele[0] for ele in words_counter_sorted][:k]
+        # words_counter = Counter(words).items()
+        # words_counter_sorted = sorted(words_counter, key=lambda x: (-x[1], x[0]))
+        # return [ele[0] for ele in words_counter_sorted[:k]]
+
+        """
+        Method 2: Heap
+        Your runtime beats 64.98 % of python3 submissions.
+
+        Time Complexity: O(Nlogk), where N is the length of words. 
+        We count the frequency of each word in O(N) time, 
+        then we add N words to the heap, each in O(logk) time. 
+        Finally, we pop from the heap up to k times.
+        """
+        words_counter = Counter(words)
+        heap = [(-freq, word) for word, freq in words_counter.items()]
+        heapq.heapify(heap)
+        return [heapq.heappop(heap)[1] for _ in range(k)]

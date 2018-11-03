@@ -31,10 +31,31 @@ class Solution:
 
         Your runtime beats 68.42 % of python3 submissions.
         """
-        d = {}
-        for ele in nums:
-            if ele in d:
-                d[ele] += 1
-            else:
-                d[ele] = 1
-        return [ele[0] for ele in sorted(d.items(), key=lambda x: x[1], reverse=True)][:k]
+        # d = {}
+        # for ele in nums:
+        #     if ele in d:
+        #         d[ele] += 1
+        #     else:
+        #         d[ele] = 1
+        # return [ele[0] for ele in sorted(d.items(), key=lambda x:x[1], reverse=True)[:k]]
+
+        """
+        Method 3: Using Heaps
+
+        * Create a hash map with the element and count of the
+        number of occurrences
+        * Add the hash map to a heap and select the top-k elements
+
+        Your runtime beats 71.83 % of python3 submissions.
+        Complexity: k*log(N)
+        """
+        import heapq
+        from collections import Counter, defaultdict
+
+        heap = [(-1 * value, key) for key, value in Counter(nums).items()]
+        heapq.heapify(heap)
+
+        res = []
+        for _ in range(k):
+            res.append(heapq.heappop(heap)[1])
+        return res

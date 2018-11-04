@@ -58,11 +58,12 @@ class Solution:
         if numRows == 1 or numRows >= len(s):
             return s
 
-        L = [''] * numRows
-        index, step = 0, 1
+        res = [''] * numRows
+        index = 0
+        step = 1
 
         for ele in s:
-            L[index] += ele
+            res[index] += ele
 
             # #Lower Bound
             if index == 0:
@@ -74,5 +75,5 @@ class Solution:
 
             index += step
 
-        return ''.join(L)
+        return ''.join(res)
 

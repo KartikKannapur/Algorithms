@@ -16,4 +16,29 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
-        return sorted(nums, reverse=True)[k - 1]
+        """
+        Method 1: Python Sorted Function
+
+        Complexity: O(nlogn) for sorting + O(k) for search
+
+        Your runtime beats 98.38 % of python submissions.
+        """
+        # return sorted(nums, reverse=True)[k-1]
+
+        """
+        Method 2: Max Heap Solution
+        Your runtime beats 45.70 % of python submissions.
+
+        Complexity k*O(logn)
+        """
+        import heapq
+
+        heap = [-1 * ele for ele in nums]
+        heapq.heapify(heap)  # #Complexity O(n)
+
+        res = 0
+        # # Complexity k*O(logn)
+        for _ in range(k):  # #Complexity O(k)
+            res = heapq.heappop(heap)  # #Complexity O(logn)
+
+        return -1 * res

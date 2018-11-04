@@ -19,36 +19,42 @@ class Solution(object):
         """
 
         """
-        Method 1: Overlapping Intervals
-        116 / 116 test cases passed.
-        Status: Accepted
-        Runtime: 46 ms
+        Method 1: Merge Overlapping Intervals
+
+        * Create a Hash Map with a nice schema
+        {letter: [first_occur_index, last_occur_index]}
+        * Like in all other overlapping interval
+        problems, we need to sort the hash map
+        based on the first_occur_index
+
+        [(u'a', [0, 8]),(u'b', [1, 5]),(u'c', [4, 7]),(u'd', [9, 14])]
+        * Merge overlapping intervals and append the
+        non-overlapping interval to the res array
+
+        * The last step is to count the number of
+        characters in each interval
+
+        Your runtime beats 97.01 % of python submissions.
+
+        Time Complexity: O(nlogn)
         """
-
+        # #Create a Hash Map with a nice schema - O(n)
         d = {}
-
         for index, letter in enumerate(S):
             if letter in d:
-                d[letter][1] = index
+                d[letter][1] = index  # #Update the latest index
             else:
                 d[letter] = [index, index]
 
-        d = sorted(d.values(), key=lambda value: value[0])
+        # #Sort the Hash Map based on first_occur_index - O(nlogn)
+        d = sorted(d.items(), key=lambda ele: ele[1][0])
 
-        res = [(d[0])]
-
-        for elem in d[1:]:
-            res_end = res[-1]
-
-            if res_end[0] <= elem[0] <= res_end[1]:
-                res_end[1] = max(elem[1], res_end[1])
+        # #Merge Overlapping Intervals - O(n)
+        res = [d[0][1]]
+        for ele in d[1:]:
+            if res[-1][0] < ele[1][0] < res[-1][1]:
+                res[-1][1] = max(res[-1][1], ele[1][1])
             else:
-                res.append(elem)
+                res.append(ele[1])
 
-        result = []
-        for ele in res:
-            result.append((ele[1] - ele[0] + 1))
-        return result
-
-
-
+        return [(ele[1] - ele[0] + 1) for ele in res]

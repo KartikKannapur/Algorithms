@@ -56,14 +56,12 @@ class Solution:
         # while val in nums:
         #     nums.remove(val)
 
-
         """
         Method 2 - Traverse from the back of the array
         O(n)
         Your runtime beats 80.37 % of python3 submissions.
         """
 
-        l = len(nums)
-        for index in range(l):
-            if nums[l - index - 1] == val:
-                del nums[l - index - 1]
+        for index in range(len(nums) - 1, -1, -1):
+            if nums[index] == val:
+                nums.pop(index)

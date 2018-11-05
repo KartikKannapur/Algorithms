@@ -19,19 +19,29 @@ For the purpose of this problem, we will return 0 when needle is an empty string
 
 """
 
-class Solution:
+
+class Solution(object):
     def strStr(self, haystack, needle):
         """
         :type haystack: str
         :type needle: str
         :rtype: int
         """
-        """
-        Method 1: Simple Python Implementation
 
-        Your runtime beats 98.65 % of python3 submissions.
         """
-        try:
-            return haystack.find(needle)
-        except:
-            return -1
+        Method 1: Python Built-in function
+        """
+        # try:
+        #     return haystack.find(needle)
+        # except:
+        #     return -1
+
+        """
+        Method 2: Sliding Window
+        Your runtime beats 67.60 % of python submissions.
+        """
+        k = len(needle)
+        for index in range(len(haystack) - k + 1):
+            if haystack[index:index + k] == needle:
+                return index
+        return -1

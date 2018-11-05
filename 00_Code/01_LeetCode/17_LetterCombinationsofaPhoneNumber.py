@@ -21,7 +21,20 @@ class Solution(object):
         Among all the other solutions - Iterative, Backtracking; this method
         seemed to yield the best accuracy.
         """
-        from itertools import product
+        #         from itertools import product
+        #         digits = list(digits)
+        #         prod = ["".join(i) for i in product(dict_numbers[digits[0]])]
+
+        #         for k in range(1,len(digits)):
+        #             prod = ["".join(i) for i in product(prod, dict_numbers[digits[k]])]
+
+        #         return(prod)
+
+        """
+        Method 2 - Backtracking
+
+        Your runtime beats 100.00 % of python submissions
+        """
 
         dict_numbers = {"2": list("abc"), "3": list("def"),
                         "4": list("ghi"), "5": list("jkl"),
@@ -30,11 +43,13 @@ class Solution(object):
 
         if digits == "":
             return []
+        """
+        Standard Backtracking format
+        Start with an inital value for res
+        Iterate through digits and res, so as to update res
+        """
+        res = dict_numbers[digits[0]]
+        for ele in digits[1:]:
+            res = [i + j for i in res for j in dict_numbers[ele]]
 
-        digits = list(digits)
-        prod = ["".join(i) for i in product(dict_numbers[digits[0]])]
-
-        for k in range(1, len(digits)):
-            prod = ["".join(i) for i in product(prod, dict_numbers[digits[k]])]
-
-        return (prod)
+        return res

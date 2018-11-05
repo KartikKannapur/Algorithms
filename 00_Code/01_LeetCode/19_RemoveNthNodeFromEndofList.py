@@ -27,37 +27,34 @@ class Solution(object):
         :rtype: ListNode
         """
         """
-        Method 1:
-        Defining a starter node 
-        Defining a main pointer and a lead pointer
-        Lead pointer is ahead of the main pointer by n
-        When the lead pointer reaches the end, the main pointer is at end-n-1
+        Method:
+        Defining a slow pointer and a fast pointer
+        Fast pointer is ahead of the slow pointer by n
+        When the fast pointer reaches the end, the slow pointer is at end-n-1
         Delete the reference to the next node
 
         Your runtime beats 38.08 % of python submissions
         """
-        # #Defining a starter node
-        starter = ListNode(None)
-        starter.next = head
 
-        # #Defining a main pointer and a lead pointer
-        main_ptr = starter
-        lead_ptr = starter
+        # #Defining a slow pointer and a fast pointer
+        slow_ptr = head
+        fast_ptr = head
+        dummy = head
 
-        # #Lead pointer is ahead of the main pointer by n
-        for _ in range(0, n):
-            if lead_ptr.next:
-                lead_ptr = lead_ptr.next
+        # #Fast pointer is ahead of the slow pointer by n
+        for _ in range(n):
+            if fast_ptr.next:
+                fast_ptr = fast_ptr.next
             else:
-                return starter.next
+                return dummy.next
 
-        # #When the lead pointer reaches the end,
-        # #the main pointer is at end-n-1
-        while lead_ptr.next:
-            lead_ptr = lead_ptr.next
-            main_ptr = main_ptr.next
+        # #When the fast pointer reaches the end,
+        # #the slow pointer is at end-n-1
+        while fast_ptr and fast_ptr.next:
+            fast_ptr = fast_ptr.next
+            slow_ptr = slow_ptr.next
 
         # #Delete the reference to the next node
-        main_ptr.next = main_ptr.next.next
+        slow_ptr.next = slow_ptr.next.next
 
-        return starter.next
+        return dummy

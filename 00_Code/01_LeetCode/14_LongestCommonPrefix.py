@@ -18,12 +18,13 @@ All given inputs are in lowercase letters a-z.
 """
 
 
-class Solution(object):
+class Solution:
     def longestCommonPrefix(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
+
         """
         Method 1:
         * Start at index 1 and iterate through each word and 
@@ -32,44 +33,45 @@ class Solution(object):
 
         Your runtime beats 84.98 % of python3 submissions.
         """
-        #         if not strs:
-        #             return ""
-
-        #         if strs == [""]:
-        #             return ""
-
-        #         prefix_index = 1
-        #         max_length = max(len(ele) for ele in strs)
-        #         while prefix_index <= max_length and len(set([ele[:prefix_index] for ele in strs])) == 1:
-        #             print(strs[0][:prefix_index])
-        #             prefix_index += 1
-
-        #         # print(prefix_index-1)
-        #         return strs[0][:prefix_index-1]
-
-        """
-        Method 2:
-        """
-
+        # #Boundary Conditions
         if not strs:
             return ""
 
-        if strs == [""]:
-            return ""
+        index = 1
+        min_len = min([len(ele) for ele in strs])  # #Complexity O(n)
 
-        prefix = strs[0]
-
-        for ele in strs:
-            index = 1
-            while ele[:index] == prefix[:index]:
+        while index <= min_len:  # #Complexity O(nk)
+            if len(set([ele[:index] for ele in strs])) == 1:
                 index += 1
+            else:
+                break
 
-                if prefix[:index] == prefix:
-                    break
+        return strs[0][:index - 1]
 
-                    # print(index, ele[:index], prefix[:index], prefix)
-            if ele[:index] != prefix[:index]:
-                index -= 1
-            prefix = prefix[:index]
+        """
+        Method 2: Horizontal Scanning
 
-        return prefix
+        * Initialize prefix to the first element
+        * For each element in the array
+        check if prefix[:i] == element[:i] while
+        we keep increasing i
+
+        Your runtime beats 49.04 % of python3 submissions.
+        """
+
+#         if not strs or strs == [""]:
+#             return ""
+
+#         prefix = strs[0]
+#         for ele in strs[1:]:
+#             index = 1
+
+#             # #Find the common prefix
+#             while (index<len(prefix)) and (ele[:index] == prefix[:index]):
+#                 index += 1
+
+#             if ele[:index] != prefix[:index]:
+#                 index -= 1
+#             prefix = prefix[:index]
+
+#         return prefix

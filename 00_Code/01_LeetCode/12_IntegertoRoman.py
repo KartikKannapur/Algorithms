@@ -61,9 +61,49 @@ class Solution:
 
         Your runtime beats 97.73 % of python3 submissions
         """
-        M = ["", "M", "MM", "MMM"]
-        C = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
-        X = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
-        I = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
+        #         M = ["", "M", "MM", "MMM"]
+        #         C = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"]
+        #         X = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
+        #         I = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
 
-        return M[num // 1000] + C[(num % 1000) // 100] + X[(num % 100) // 10] + I[num % 10]
+        #         return M[num//1000] + C[(num%1000)//100] + X[(num%100)//10] + I[num%10]
+
+        """
+        Method 2
+
+        * Create a Hash Map for certain Roman Integers and their
+        Integer conversions
+        Essentially, multiples of 4,5,9,10
+        * Iterate through val, moving from the largest to the smallest
+        value - this makes intuitive sense while working on any number
+        conversion problem.
+        * When the quotient of q,  r = divmod(num, val[i]) is greater
+        than 0, then add those many symbols.
+        * Update the quotient, remainder and the result.
+
+        Eg: 27
+        Iterate until we get 10 in the val array
+        q = 2, r = 7, val[i] = 10 --> res = XX
+        Now the number is 7
+
+        q = 1, r = 2, val[i] = 5 --> res = XXV
+        Now the number is 2
+
+        res = XXVII
+        """
+        val = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4]
+        sym = ["M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV"]
+        res = ""
+        for i in range(len(val)):
+            q, r = divmod(num, val[i])
+
+            if q > 0:
+                res += q * sym[i]
+                num = r
+            if num == 0:
+                return res
+
+        if num > 0:
+            res += num * "I"
+
+        return res

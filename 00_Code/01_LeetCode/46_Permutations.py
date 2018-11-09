@@ -22,48 +22,26 @@ class Solution(object):
         """
 
         """
-        Method 1: itertools module
-        Your runtime beats 97.75 % of python submissions.
+        Method: DFS
+
+        * At each iteration we update the parameters
+        in the dfs method.
+        * dfs(nums, path, res)
+        * We update nums by removing the current element
+        * We update path by adding the current element
+        * When the nums array is empty, we update res   
+
+        Your runtime beats 99.81 % of python submissions.
         """
-        from itertools import permutations
-        return list(permutations(nums))
 
+        def dfs(nums, path, res):
+            if not nums:
+                res.append(path)
 
-        """
-        Method 2: Recursion - Backtracking
-        Your runtime beats 17.17 % of python submissions.
-        """
+            for i in range(len(nums)):
+                # #Update nums and path
+                dfs(nums[:i] + nums[i + 1:], path + [nums[i]], res)
 
-        def permutation(lst):
-            if len(lst) == 1:
-                return [lst]
-
-            l = []
-            for i in range(len(lst)):
-                remLst = lst[:i] + lst[i + 1:]
-
-                for p in permutation(remLst):
-                    l.append([lst[i]] + p)
-            return l
-
-        arr = []
-        for p in permutation(nums):
-            arr.append(p)
-        return arr
-
-        """
-        Method 3: Backtracking
-        Your runtime beats 31.88 % of python submissions.
-        """
-        def backtrack(start, end):
-            if start == end:
-                ans.append(nums[:])
-
-            for i in range(start, end):
-                nums[start], nums[i] = nums[i], nums[start]
-                backtrack(start+1, end)
-                nums[start], nums[i] = nums[i], nums[start]
-
-        ans = []
-        backtrack(0, len(nums))
-        return ans
+        res = []
+        dfs(nums, [], res)
+        return res

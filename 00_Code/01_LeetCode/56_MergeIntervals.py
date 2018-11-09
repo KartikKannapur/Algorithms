@@ -14,17 +14,26 @@ return [1,6],[8,10],[15,18].
 #         self.start = s
 #         self.end = e
 
-class Solution(object):
+# Definition for an interval.
+# class Interval:
+#     def __init__(self, s=0, e=0):
+#         self.start = s
+#         self.end = e
+
+class Solution:
     def merge(self, intervals):
         """
         :type intervals: List[Interval]
         :rtype: List[Interval]
         """
+
         """
         Method 1: Sort + Stack
-        Your runtime beats 86.42 % of python submissions.
+
+        Your runtime beats 99.71 % of python3 submissions.
         """
-        if len(intervals) == 0: return []
+        if len(intervals) == 0:
+            return []
 
         intervals = sorted(intervals, key=lambda ele: ele.start)
 

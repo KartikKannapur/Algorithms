@@ -17,8 +17,37 @@ class Solution(object):
         :type num2: str
         :rtype: str
         """
+
         """
-        Method 1: using eval()
-        Your runtime beats 90.51 % of python submissions.
+        Method 1: Using ord() in Python
+
+        * Reverse the string and perform element-wise
+        multiplication with carry
+        * This is similar to our regular multiplication
+        method
+        * Use the ord(char)-ord('0') to obtain the integer
+        value
+
+        Your runtime beats 59.28 % of python submissions.
         """
-        return str(eval(num1 + "*" + num2))
+
+        res = 0
+        ten_multiplier = 1
+
+        for i in num2[::-1]:
+
+            carry = 0
+            temp_res = 0
+            temp_ten_multiplier = 1
+
+            for j in num1[::-1]:
+                carry, prod = divmod(((ord(i) - ord('0')) * (ord(j) - ord('0'))) + carry, 10)
+                temp_res += prod * temp_ten_multiplier
+                temp_ten_multiplier *= 10
+            temp_res += carry * temp_ten_multiplier  # #Add the remaining carry at the end
+
+            res += temp_res * ten_multiplier  # #Add the product per element to the final res
+            ten_multiplier *= 10
+
+        return str(res)
+

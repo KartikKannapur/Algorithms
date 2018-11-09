@@ -20,33 +20,46 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        if not nums:
-            return [-1, -1]
+        """
+        Method 1: Binary Search for LOW + Binary Search for HIGH
 
-        res_low = -1
-        res_high = -1
+        Your runtime beats 92.42 % of python submissions.
+        """
+
+        # #Binary Search to find LOW
         low = 0
         high = len(nums) - 1
 
-        while low < high:
+        while low <= high:
             mid = (low + high) // 2
+
             if nums[mid] < target:
                 low = mid + 1
             else:
-                high = mid
+                high = mid - 1
+        # print(low, high)
+        res1 = low
 
-        if nums[low] != target:
-            return -1, -1
-
-        res_low = low
+        # #Binary Search to find HIGH
+        low = 0
         high = len(nums) - 1
+        while low <= high:
+            mid = (low + high) // 2
 
-        while low < high:
-            mid = ((low + high) // 2) + 1
-            if nums[mid] == target:
-                low = mid
+            if nums[mid] <= target:
+                low = mid + 1
             else:
                 high = mid - 1
-        res_high = low
-        return res_low, res_high
+        # print(low, high)
+        res2 = high
+
+        # #Sanity Check
+        if res1 <= res2:
+            return [res1, res2]
+        else:
+            return [-1, -1]
+
+
+
+
 

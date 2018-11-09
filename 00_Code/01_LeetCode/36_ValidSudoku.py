@@ -10,26 +10,8 @@ A partially filled sudoku which is valid.
 The Sudoku board could be partially filled, where empty cells are filled with the character '.'
 """
 
-from collections import Counter
-
 
 class Solution:
-    def isValidRowColumnSquare(self, arr):
-        """
-        Custom method to check if a row, column or square
-        is valid or not.
-        A simpled Counter object is used and looped over,
-        if the key != '.' and the value > 1, then we
-        return False
-        """
-        temp_ctr = Counter(arr)
-        for k, v in temp_ctr.items():
-            # print(k,v)
-            if k != '.' and v > 1:
-                return False
-
-        return True
-
     def isValidSudoku(self, board):
         """
         :type board: List[List[str]]
@@ -45,19 +27,26 @@ class Solution:
 
         Your runtime beats 17.21 % of python3 submissions.
         """
-        for row in board:
-            if not self.isValidRowColumnSquare(row):
-                return False
 
-        for index in range(0, len(board)):
-            row_transpose = [board[col][index] for col in range(0, len(board[0]))]
-            if not self.isValidRowColumnSquare(row_transpose):
-                return False
+        """
+        Method 2: Hash set
 
-        for i in (0, 3, 6):
-            for j in (0, 3, 6):
-                square = [board[row_idx][col_idx] for row_idx in range(i, i + 3) for col_idx in range(j, j + 3)]
-                if not self.isValidRowColumnSquare(square):
-                    return False
+        - Check if each row has a unique value: (i, val)
+        - Check if each col has a unique value: (val, j)
+        - Check if each sub-square has a unique value(i/3, j/3, val)
 
+        Your runtime beats 91.20 % of python submissions.
+        """
+        s = set()
+
+        for i in range(len(board)):
+            for j in range(len(board)):
+
+                if board[i][j] != ".":
+                    if ((i, board[i][j]) in s) or ((board[i][j], j) in s) or ((i / 3, j / 3, board[i][j]) in s):
+                        return False
+
+                    s.add((i, board[i][j]))
+                    s.add((board[i][j], j))
+                    s.add((i / 3, j / 3, board[i][j]))
         return True

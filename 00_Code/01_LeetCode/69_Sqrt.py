@@ -2,7 +2,6 @@
 # #Compute and return the square root of x.
 # #x is guaranteed to be a non-negative integer.
 # #Your runtime beats 81.07 % of python submissions.
-
 class Solution(object):
     def mySqrt(self, x):
         """
@@ -25,10 +24,10 @@ class Solution(object):
         while low <= high:
             mid = (low + high) // 2
 
-            if mid * mid <= x < (mid + 1) * (mid + 1):
+            if mid ** 2 <= x < (mid + 1) ** 2:
                 return mid
 
-            elif mid * mid > x:
+            elif mid ** 2 > x:
                 high = mid
             else:
                 low = mid + 1

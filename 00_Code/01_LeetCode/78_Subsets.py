@@ -20,7 +20,7 @@ Output:
 """
 
 
-class Solution(object):
+class Solution:
     def subsets(self, nums):
         """
         :type nums: List[int]
@@ -29,11 +29,19 @@ class Solution(object):
 
         """
         Method 1: 
-        Your runtime beats 96.59 % of python submissions.
-        """
-        res = [[]]
-        for n in nums:
-            res += [res[ele] + [n] for ele in range(len(res))]
-        return res
 
+        * Start with an empty [[]] array    
+        * FOR each element in nums:
+        Add the element to the array:
+        * INNER FOR loop, add [element + each element in res]
+        and update res
+
+        Your runtime beats 99.88 % of python3 submissions.
+        """
+
+        res = [[]]
+
+        for n in nums:
+            res += [ele + [n] for ele in res]
+        return res
 

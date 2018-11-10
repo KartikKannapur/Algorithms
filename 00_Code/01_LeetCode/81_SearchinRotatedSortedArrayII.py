@@ -27,15 +27,35 @@ class Solution(object):
         Method 1: Linear Search
         Your runtime beats 70.33 % of python submissions.
         """
-        if not nums:
-            return False
 
-        for ele in nums:
-            if ele == target:
+        """
+        Method 2:
+        Same as Q33. Search in Rotated Sorted Array.
+
+        Your runtime beats 100.00 % of python submissions.
+        """
+        nums.sort()
+        low = 0
+        high = len(nums) - 1
+
+        while low <= high:
+            mid = (low + high) / 2
+            # print(mid, nums[mid])
+
+            if nums[mid] == target:
                 return True
-        return False
 
-        """
-        Can we optimize this using Binary Search?
-        """
+            elif nums[low] <= nums[mid]:
+                if nums[low] <= target <= nums[mid]:
+                    high = mid - 1
+                else:
+                    low = mid + 1
+
+
+            else:
+                if nums[mid] <= target <= nums[high]:
+                    low = mid + 1
+                else:
+                    high = mid - 1
+        return False
 

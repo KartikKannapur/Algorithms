@@ -10,21 +10,31 @@ Your runtime beats 67.55 % of python submissions.
 
 
 # Definition for singly-linked list.
-# class ListNode(object):
+# class ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
-class Solution(object):
+class Solution:
     def deleteDuplicates(self, head):
         """
         :type head: ListNode
         :rtype: ListNode
         """
-        temp = head
-        while temp:
-            while temp.next and temp.val == temp.next.val:
-                temp.next = temp.next.next
-            temp = temp.next
+
+        """
+        * Initialized the current_ptr to head
+        * If the current_ptr and current_ptr.next have the same value
+        then move the pointer by one more
+
+        Your runtime beats 90.02 % of python3 submissions.
+        """
+
+        current_ptr = head
+
+        while current_ptr:
+            while current_ptr.next and (current_ptr.val == current_ptr.next.val):
+                current_ptr.next = current_ptr.next.next
+            current_ptr = current_ptr.next
 
         return head

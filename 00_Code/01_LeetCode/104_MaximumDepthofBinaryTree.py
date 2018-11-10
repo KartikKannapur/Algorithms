@@ -38,13 +38,42 @@ class Solution(object):
         The only difference is while comparing l_depth > r_depth
         we return the value that is smaller value + 1
         """
+        #         if not root:
+        #             return 0
+
+        #         l_depth = self.maxDepth(root.left)
+        #         r_depth = self.maxDepth(root.right)
+
+        #         if l_depth > r_depth: return l_depth + 1
+        #         else: return r_depth + 1
+
+        """
+        Method 2: BFS + Queue
+
+        Your runtime beats 98.81 % of python submissions.
+        """
+        # #Boundary conditions
         if not root:
             return 0
+        if root and ((not root.left) and (not root.right)):
+            return 1
 
-        l_depth = self.maxDepth(root.left)
-        r_depth = self.maxDepth(root.right)
+        res = [[root.val]]
+        queue = [root, 'X']
 
-        if l_depth > r_depth:
-            return l_depth + 1
-        else:
-            return r_depth + 1
+        while queue:
+            node = queue.pop(0)
+
+            if queue and node == 'X':
+                res.append([ele.val for ele in queue])
+                queue.append('X')
+
+            elif queue:
+                # #Left comes before right in level order traversal
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+
+        return len(res)
+

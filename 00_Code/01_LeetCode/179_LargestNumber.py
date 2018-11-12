@@ -11,6 +11,7 @@ class Solution:
     # @param {integer[]} nums
     # @return {string}
     def largestNumber(self, nums):
+
         """
         Method 1:
         179 / 221 test cases passed.
@@ -24,4 +25,18 @@ class Solution:
         Method 2:
         Your runtime beats 99.76 % of python submissions.
         """
-        return str(int(''.join(sorted(map(str, nums), key=lambda s: s * 9, reverse=True))))
+
+        # return str(int(''.join(sorted(map(str, nums), key=lambda s:s*9, reverse=True))))
+
+        def compare(a, b):
+            print(a, b)
+            if a + b > b + a:
+                return 1
+            elif a + b < b + a:
+                return -1
+            else:
+                return 0
+
+        nums = map(str, nums)
+        nums.sort(cmp=compare, reverse=True)
+        return str(int("".join(nums)))

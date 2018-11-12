@@ -24,8 +24,9 @@ For example, given the above Scores table, your query should generate the follow
 | 3.50  | 4    |
 +-------+------+
 """
-SELECT Score, (SELECT COUNT(DISTINCT(Score))
- 	             FROM  Scores b
- 	             WHERE b.Score > a.Score) + 1 AS Rank
-FROM Scores a
-ORDER by Score DESC;
+-- Your runtime beats 10.35 % of mysql submissions.
+SELECT A.Score, COUNT(DISTINCT B.Score)+1 AS Rank
+FROM Scores A LEFT JOIN Scores B
+ON A.Score < B.Score
+GROUP BY A.ID, A.Score
+ORDER BY Rank;

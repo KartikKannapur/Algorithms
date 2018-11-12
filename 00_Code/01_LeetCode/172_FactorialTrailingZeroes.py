@@ -5,7 +5,7 @@ Note: Your solution should be in logarithmic time complexity.
 """
 
 
-class Solution(object):
+class Solution:
     def trailingZeroes(self, n):
         """
         :type n: int
@@ -13,7 +13,7 @@ class Solution(object):
         """
         """
         Method 1:
-        n/5 + n/25 + n/625 ...
+        n/5 + n/25 + n/125 + n/625 ...
 
         Your runtime beats 40.59 % of python submissions.
         """

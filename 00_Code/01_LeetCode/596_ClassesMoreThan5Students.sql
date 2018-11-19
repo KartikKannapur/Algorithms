@@ -28,10 +28,22 @@ Should output:
 Note:
 The students should not be counted duplicate in each course.
 
-Your runtime beats 78.52 % of mysql submissions.
 */
 
 
-SELECT class FROM courses
+# #Your runtime beats 70.77 % of mysql submissions.
+# SELECT class
+# FROM (
+#     SELECT DISTINCT student, class
+#     FROM courses
+# ) As t
+# GROUP BY class
+# HAVING COUNT(*) >= 5;
+
+
+SELECT
+    class
+FROM
+    courses
 GROUP BY class
-HAVING COUNT(DISTINCT student) > 4;
+HAVING COUNT(DISTINCT student) >= 5;

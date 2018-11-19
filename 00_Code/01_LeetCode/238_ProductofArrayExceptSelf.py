@@ -17,27 +17,19 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
-        #         # #Method 1: Algo works well. But times out
-        #         # #for large arrays
-        #         output = []
-
-        #         for ele in nums:
-        #             temp = nums[:]
-        #             temp.remove(ele)
-        #             prod = 1
-
-        #             for i in temp:
-        #                 prod *= i
-        #             output.append(prod)
-
-        #         return output
-
         """
         Method 2:
 
         Create two arrays - left and right, of size n
         leftside products
         rightside products
+
+        Input:  [1,2,3,4]
+        Output: [24,12,8,6]
+
+        Leftside Products: [1,1,2,6]
+        Rightside Products: [24,12,4,1]
+        Element-wise product: [24, 12,8, 6]
 
         multiply them element wise to get the result
         Your runtime beats 21.92 % of python submissions.
@@ -52,5 +44,7 @@ class Solution(object):
 
         for i in range(n - 2, -1, -1):
             right[i] = right[i + 1] * nums[i + 1]
+
+        print(left, right)
 
         return ([x * y for x, y in zip(left, right)])

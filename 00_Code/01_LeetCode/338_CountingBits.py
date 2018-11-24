@@ -15,6 +15,7 @@ Special thanks to @ syedee for adding this problem and creating all test cases.
 
 """
 
+
 class Solution(object):
     def countBits(self, num):
         """
@@ -25,4 +26,23 @@ class Solution(object):
         Method 1:
         Your runtime beats 53.63 % of python submissions.
         """
-        return [bin(ele).count('1') for ele in range(num+1)]
+        # return [bin(ele).count('1') for ele in range(num+1)]
+
+        """
+        Method 2: Dynamic Programming
+
+        [0,1,1,2,1,2,2,3,1,2,2,3,2,3,3,4,1,2,2,3,2,3,3,4,2,3,3,4,3,4,4,5]
+        DP Pattern: dp[index] = dp[index - offset] + 1
+
+        Your runtime beats 99.29 % of python submissions.
+        """
+        dp = [0] * (num + 1)
+        offset = 1
+
+        for i in range(1, num + 1):
+            if offset * 2 == i:
+                offset = offset * 2
+
+            dp[i] = dp[i - offset] + 1
+
+        return dp

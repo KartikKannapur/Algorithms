@@ -19,7 +19,7 @@ Your algorithm should use only constant space. You may not modify the values in 
 class Solution(object):
     def swapPairs(self, head):
         """
-        :type head: ListNode
+        :type head: ListNodex
         :rtype: ListNode
         """
         """

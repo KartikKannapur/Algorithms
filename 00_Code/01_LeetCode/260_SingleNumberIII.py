@@ -10,6 +10,7 @@ The order of the result is not important. So in the above example, [5, 3] is als
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant space complexity?
 """
 
+
 class Solution(object):
     def singleNumber(self, nums):
         """
@@ -20,11 +21,26 @@ class Solution(object):
         Method 1
         Your runtime beats 44.50 % of python submissions.
         """
-        d ={}
-        for i in range(0, len(nums)):
-            if nums[i] in d:
-                del d[nums[i]]
-            else:
-                d[nums[i]] = 1
+        #         d ={}
+        #         for i in range(0, len(nums)):
+        #             if nums[i] in d:
+        #                 del d[nums[i]]
+        #             else:
+        #                 d[nums[i]] = 1
 
-        return d.keys()
+        #         return d.keys()
+
+        """
+        Method 2:
+        Using set instead of an array
+
+        Your runtime beats 67.94 % of python submissions.
+        """
+        res = set()
+        for ele in nums:
+            if ele in res:
+                res.remove(ele)
+            else:
+                res.add(ele)
+
+        return list(res)

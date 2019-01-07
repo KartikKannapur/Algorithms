@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2da2d6f1-a6e5-476f-b49a-742bf3659216" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/970_PowerfulIntegers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/565_ArrayNesting.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py" beforeDir="false" afterPath="$PROJECT_DIR$/00_Code/01_LeetCode/577_EmployeeBonus.py" afterDir="false" />
@@ -42,25 +43,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="409" />
+          <entry key="py" value="411" />
           <entry key="sql" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="409" />
+          <entry key="Python" value="411" />
           <entry key="SQL" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1875" />
+          <entry key="py" value="1886" />
           <entry key="sql" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1875" />
+          <entry key="Python" value="1886" />
           <entry key="SQL" value="7" />
         </counts>
       </usages-collector>
@@ -68,24 +69,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/506_RelativeRanks.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1364">
-              <caret line="62" selection-start-line="62" selection-end-line="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/917_ReverseOnlyLetters.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/292_NimGame.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -149,11 +132,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/965_UnivaluedBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="624">
               <caret line="86" column="77" selection-start-line="86" selection-start-column="77" selection-end-line="86" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/970_PowerfulIntegers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/972_EqualRationalNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -173,8 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/40_CombinationSumII.py" />
-        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/216_CombinationSumIII.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/42_TrappingRainWater.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/43_MultiplyStrings.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/46_Permutations.py" />
@@ -224,6 +223,8 @@
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/496_NextGreaterElementI.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/669_TrimaBinarySearchTree.py" />
         <option value="$PROJECT_DIR$/00_Code/01_LeetCode/965_UnivaluedBinaryTree.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/970_PowerfulIntegers.py" />
+        <option value="$PROJECT_DIR$/00_Code/01_LeetCode/972_EqualRationalNumbers.py" />
       </list>
     </option>
   </component>
@@ -436,16 +437,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/806_NumberofLinesToWriteString.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/807_MaxIncreasetoKeepCitySkyline.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-858" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/811_SubdomainVisitCount.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-908" />
@@ -698,6 +689,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="86" column="77" selection-start-line="86" selection-start-column="77" selection-end-line="86" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/970_PowerfulIntegers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="105" lean-forward="true" selection-start-line="105" selection-end-line="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Code/01_LeetCode/972_EqualRationalNumbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
         </state>
       </provider>
     </entry>
